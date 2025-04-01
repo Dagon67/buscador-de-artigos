@@ -1,0 +1,269 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "VideoMage: Multi-Subject and Motion Customization of Text-to-Video\n  Diffusion Models",
+        "abstract": "Customized text-to-video generation aims to produce high-quality videos that\nincorporate user-specified subject identities or motion patterns. However,\nexisting methods mainly focus on personalizing a single concept, either subject\nidentity or motion pattern, limiting their effectiveness for multiple subjects\nwith the desired motion patterns. To tackle this challenge, we propose a\nunified framework VideoMage for video customization over both multiple subjects\nand their interactive motions. VideoMage employs subject and motion LoRAs to\ncapture personalized content from user-provided images and videos, along with\nan appearance-agnostic motion learning approach to disentangle motion patterns\nfrom visual appearance. Furthermore, we develop a spatial-temporal composition\nscheme to guide interactions among subjects within the desired motion patterns.\nExtensive experiments demonstrate that VideoMage outperforms existing methods,\ngenerating coherent, user-controlled videos with consistent subject identities\nand interactions.",
+        "url": "http://arxiv.org/abs/2503.21781v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+        "abstract": "Inspired by DeepSeek-R1's success in eliciting reasoning abilities through\nrule-based reinforcement learning (RL), we introduce Video-R1 as the first\nattempt to systematically explore the R1 paradigm for eliciting video reasoning\nwithin multimodal large language models (MLLMs). However, directly applying RL\ntraining with the GRPO algorithm to video reasoning presents two primary\nchallenges: (i) a lack of temporal modeling for video reasoning, and (ii) the\nscarcity of high-quality video-reasoning data. To address these issues, we\nfirst propose the T-GRPO algorithm, which encourages models to utilize temporal\ninformation in videos for reasoning. Additionally, instead of relying solely on\nvideo data, we incorporate high-quality image-reasoning data into the training\nprocess. We have constructed two datasets: Video-R1-COT-165k for SFT cold start\nand Video-R1-260k for RL training, both comprising image and video data.\nExperimental results demonstrate that Video-R1 achieves significant\nimprovements on video reasoning benchmarks such as VideoMMMU and VSI-Bench, as\nwell as on general video benchmarks including MVBench and TempCompass, etc.\nNotably, Video-R1-7B attains a 35.8% accuracy on video spatial reasoning\nbenchmark VSI-bench, surpassing the commercial proprietary model GPT-4o. All\ncodes, models, data are released.",
+        "url": "http://arxiv.org/abs/2503.21776v1",
+        "published": "2025-03-27T17:59:51Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross\n  Fusion",
+        "abstract": "We present StyleMotif, a novel Stylized Motion Latent Diffusion model,\ngenerating motion conditioned on both content and style from multiple\nmodalities. Unlike existing approaches that either focus on generating diverse\nmotion content or transferring style from sequences, StyleMotif seamlessly\nsynthesizes motion across a wide range of content while incorporating stylistic\ncues from multi-modal inputs, including motion, text, image, video, and audio.\nTo achieve this, we introduce a style-content cross fusion mechanism and align\na style encoder with a pre-trained multi-modal model, ensuring that the\ngenerated motion accurately captures the reference style while preserving\nrealism. Extensive experiments demonstrate that our framework surpasses\nexisting methods in stylized motion generation and exhibits emergent\ncapabilities for multi-modal motion stylization, enabling more nuanced motion\nsynthesis. Source code and pre-trained models will be released upon acceptance.\nProject Page: https://stylemotif.github.io",
+        "url": "http://arxiv.org/abs/2503.21775v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Simulating quantum circuits with restricted quantum computers",
+        "abstract": "It is one of the most fundamental objectives in quantum information science\nto understand the boundary between the computational power of classical and\nquantum computers. One possible avenue to explore this boundary is to identify\nclasses of quantum circuits that can be efficiently simulated on a classical\ncomputer. Instead of simulating a general quantum circuit with a classical\ndevice, new schemes have recently emerged to simulate them on a quantum device\nthat is restricted in some manner. As such, these techniques allow us to study\nhow the restrictions impact the computational power of the device. One such\ntechnique is called quasiprobability simulation (QPS) and it estimates the\nresult of a quantum circuit with a Monte Carlo procedure that randomly replaces\ncircuit elements with ones that can be executed on the restricted quantum\ndevice.\n  The main focus of this thesis is dedicated to the QPS-based simulation of\nnonlocal quantum computation using local quantum operations. On the practical\nside, this enables the simulation of large quantum circuits using multiple\nsmaller quantum devices - a procedure that is sometimes called circuit\nknitting. We uncover a rich mathematical formalism with many connections to the\nresource theory of entanglement. We characterize the optimal simulation\noverhead for a broad range of practically relevant nonlocal states and channels\nand we explicitly provide achieving protocols. Moreover, we also investigate\nthe utility of classical communication between the local parties. Our results\naddress both the single-shot and asymptotic regime.\n  We frame QPS in a quantum resource theoretic framework, which highlights\nsimilarities that arise in the different instantiations of the technique.\nFurthermore, we study the importance of classical side information in the QPS\nprocedure and how it impacts the overhead and expressibility of QPS.",
+        "url": "http://arxiv.org/abs/2503.21773v1",
+        "published": "2025-03-27T17:59:45Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "A Unified Image-Dense Annotation Generation Model for Underwater Scenes",
+        "abstract": "Underwater dense prediction, especially depth estimation and semantic\nsegmentation, is crucial for gaining a comprehensive understanding of\nunderwater scenes. Nevertheless, high-quality and large-scale underwater\ndatasets with dense annotations remain scarce because of the complex\nenvironment and the exorbitant data collection costs. This paper proposes a\nunified Text-to-Image and DEnse annotation generation method (TIDE) for\nunderwater scenes. It relies solely on text as input to simultaneously generate\nrealistic underwater images and multiple highly consistent dense annotations.\nSpecifically, we unify the generation of text-to-image and text-to-dense\nannotations within a single model. The Implicit Layout Sharing mechanism (ILS)\nand cross-modal interaction method called Time Adaptive Normalization (TAN) are\nintroduced to jointly optimize the consistency between image and dense\nannotations. We synthesize a large-scale underwater dataset using TIDE to\nvalidate the effectiveness of our method in underwater dense prediction tasks.\nThe results demonstrate that our method effectively improves the performance of\nexisting underwater dense prediction models and mitigates the scarcity of\nunderwater data with dense annotations. We hope our method can offer new\nperspectives on alleviating data scarcity issues in other fields. The code is\navailable at https: //github.com/HongkLin/TIDE.",
+        "url": "http://arxiv.org/abs/2503.21771v1",
+        "published": "2025-03-27T17:59:43Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Stable-SCore: A Stable Registration-based Framework for 3D Shape\n  Correspondence",
+        "abstract": "Establishing character shape correspondence is a critical and fundamental\ntask in computer vision and graphics, with diverse applications including\nre-topology, attribute transfer, and shape interpolation. Current dominant\nfunctional map methods, while effective in controlled scenarios, struggle in\nreal situations with more complex challenges such as non-isometric shape\ndiscrepancies. In response, we revisit registration-for-correspondence methods\nand tap their potential for more stable shape correspondence estimation. To\novercome their common issues including unstable deformations and the necessity\nfor careful pre-alignment or high-quality initial 3D correspondences, we\nintroduce Stable-SCore: A Stable Registration-based Framework for 3D Shape\nCorrespondence. We first re-purpose a foundation model for 2D character\ncorrespondence that ensures reliable and stable 2D mappings. Crucially, we\npropose a novel Semantic Flow Guided Registration approach that leverages 2D\ncorrespondence to guide mesh deformations. Our framework significantly\nsurpasses existing methods in challenging scenarios, and brings possibilities\nfor a wide array of real applications, as demonstrated in our results.",
+        "url": "http://arxiv.org/abs/2503.21766v1",
+        "published": "2025-03-27T17:59:02Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Identification and estimation of treatment effects in a linear factor\n  model with fixed number of time periods",
+        "abstract": "This paper provides a new approach for identifying and estimating the Average\nTreatment Effect on the Treated under a linear factor model that allows for\nmultiple time-varying unobservables. Unlike the majority of the literature on\ntreatment effects in linear factor models, our approach does not require the\nnumber of pre-treatment periods to go to infinity to obtain a valid estimator.\nOur identification approach employs a certain nonlinear transformations of the\ntime invariant observed covariates that are sufficiently correlated with the\nunobserved variables. This relevance condition can be checked with the\navailable data on pre-treatment periods by validating the correlation of the\ntransformed covariates and the pre-treatment outcomes. Based on our\nidentification approach, we provide an asymptotically unbiased estimator of the\neffect of participating in the treatment when there is only one treated unit\nand the number of control units is large.",
+        "url": "http://arxiv.org/abs/2503.21763v1",
+        "published": "2025-03-27T17:58:17Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "On the open TS/ST correspondence",
+        "abstract": "The topological string/spectral theory correspondence establishes a precise,\nnon-perturbative duality between topological strings on local Calabi-Yau\nthreefolds and the spectral theory of quantized mirror curves. While this\nduality has been rigorously formulated for the closed topological string\nsector, the open string sector remains less understood. Building on the results\nof [1-3], we make further progress in this direction by constructing entire,\noff-shell eigenfunctions for the quantized mirror curve from open topological\nstring partition functions. We focus on local $\\mathbb{F}_0$, whose mirror\ncurve corresponds to the Baxter equation of the two-particle, relativistic Toda\nlattice. We then study the standard and dual four-dimensional limits, where the\nquantum mirror curve for local $\\mathbb{F}_0$ degenerates into the modified\nMathieu and McCoy-Tracy-Wu operators, respectively. In these limits, our\nframework provides a way to construct entire, off-shell eigenfunctions for the\ndifference equations associated with these operators. Furthermore, we find a\nsimple relation between the on-shell eigenfunctions of the modified Mathieu and\nMcCoy-Tracy-Wu operators, leading to a functional relation between the\noperators themselves.",
+        "url": "http://arxiv.org/abs/2503.21762v1",
+        "published": "2025-03-27T17:57:37Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single\n  Video",
+        "abstract": "This paper presents a unified approach to understanding dynamic scenes from\ncasual videos. Large pretrained vision foundation models, such as\nvision-language, video depth prediction, motion tracking, and segmentation\nmodels, offer promising capabilities. However, training a single model for\ncomprehensive 4D understanding remains challenging. We introduce Uni4D, a\nmulti-stage optimization framework that harnesses multiple pretrained models to\nadvance dynamic 3D modeling, including static/dynamic reconstruction, camera\npose estimation, and dense 3D motion tracking. Our results show\nstate-of-the-art performance in dynamic 4D modeling with superior visual\nquality. Notably, Uni4D requires no retraining or fine-tuning, highlighting the\neffectiveness of repurposing visual foundation models for 4D understanding.",
+        "url": "http://arxiv.org/abs/2503.21761v1",
+        "published": "2025-03-27T17:57:32Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "MemInsight: Autonomous Memory Augmentation for LLM Agents",
+        "abstract": "Large language model (LLM) agents have evolved to intelligently process\ninformation, make decisions, and interact with users or tools. A key capability\nis the integration of long-term memory capabilities, enabling these agents to\ndraw upon historical interactions and knowledge. However, the growing memory\nsize and need for semantic structuring pose significant challenges. In this\nwork, we propose an autonomous memory augmentation approach, MemInsight, to\nenhance semantic data representation and retrieval mechanisms. By leveraging\nautonomous augmentation to historical interactions, LLM agents are shown to\ndeliver more accurate and contextualized responses. We empirically validate the\nefficacy of our proposed approach in three task scenarios; conversational\nrecommendation, question answering and event summarization. On the LLM-REDIAL\ndataset, MemInsight boosts persuasiveness of recommendations by up to 14%.\nMoreover, it outperforms a RAG baseline by 34% in recall for LoCoMo retrieval.\nOur empirical results show the potential of MemInsight to enhance the\ncontextual performance of LLM agents across multiple tasks.",
+        "url": "http://arxiv.org/abs/2503.21760v1",
+        "published": "2025-03-27T17:57:28Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [
+      {
+        "title": "The representation of multiple intelligences in an intermediate Arabic-language textbook, and teachers' awareness of them in Jordanian schools.",
+        "abstract": "The theory of Multiple Intelligences (MI) states that human intelligence is composed of different types of intelligences and that each individual possesses all of them but to a different degree. The main objective of this research was to examine how the Theory of Multiple Intelligences was addressed in a seventh-grade Arabic-language textbook at the intermediate-level in Jordan and determine Arabic-language teachers' level of knowledge of applying the Theory of Multiple Intelligences in textbooks. The study used the survey method and analytical descriptive approach via content analysis and coding MI indicators in the textbook to examine the representation of MI in the textbook examined. The sample was composed of all units of a seventh-grade Arabic-language textbook. A questionnaire was distributed to 130 Arabic-language teachers. The study includes eight of the Intelligences from Howard Gardner's Multiple Intelligences (MI) Theory. The analysis found that the intelligences represented in the texts, activities, and exercises of the Arabic-language textbook were mostly Verbal/Linguistic, Visual/Spatial and Interpersonal intelligences, with a combined percentage of 73%. The other 27% was shared between the other intelligence types: Intrapersonal, Naturalist, Logical/Mathematical, Bodily/Kinesthetic, and Musical intelligences. A moderated awareness on how to incorporate the theory of MI in Arabic-language textbooks was found among Arabic-language teachers, which means that teachers' understanding of the importance of including MI theory in the textbook needs reinforcement and improvement. The study suggests that further research on incorporating the Theory of MI in textbooks is needed.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34041385/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Impact of Physical Activity Practice and Adherence to the Mediterranean Diet in Relation to Multiple Intelligences among University Students.",
+        "abstract": "Physical activity is important at any time of life. Particularly in the university, people tend to have more sedentary life, due to their studies. Eating habits are another health factor to consider. In addition, the Multiple Intelligences theory is a proposal that seeks the integral development and well-being of people. A descriptive, cross-sectional, and non-experimental research with the purpose of this study is to establish the relationships between practice of physical activity and the intelligences and determine the relationship between diet and the different types of intelligence in 215 university students. Findings indicate higher adherence to Mediterranean Diet in women and higher physical activity scores in men. Regarding multiple intelligences, men have higher indices in Bodily-kinesthetic, Interpersonal, Logical-mathematical, Musical, and Spatial intelligences, while women show higher levels in relation to Linguistic, Intrapersonal, and Naturalistic intelligences. Main conclusions from this study suggest the relationship between multiple intelligence and healthy habits, while also highlighting the need to improve eating habits and achieve greater adherence to Mediterranean Diet.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32872286/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "A study on different forms of intelligence in Indian school-going children.",
+        "abstract": "Most definitions of intelligence focus on capabilities that are relevant to scholastic performances. However, there are seven forms of intelligences. There is a lack of data on multiple intelligences in Indian children. Hence, this study was conducted to assess different forms of intelligences in students and compared these diverse intelligences with intelligence quotient (IQ) scores.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29456325/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Implementation of multiple intelligences theory in the English language course syllabus at the University of Nis Medical School.",
+        "abstract": "Theory of multiple intelligences (MI) is considered an innovation in learning the English language because it helps students develop all eight intelligences that, on the other hand, represent ways people understand the world around them, solve problems and learn. They are: verbal/linguistic, logical/mathematical, visual/spatial, bodily/kinaesthetic, musical/rhythmic, interpersonal, intrapersonal and naturalist. Also, by focusing on the problem-solving activities, teachers, by implementing theory of multiple intelligences, encourage students not only to build their existing language knowledge but also learn new content and skills.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20422920/",
+        "published": null,
+        "source": "PubMed"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "OpenAlex",
+    "results": [
+      {
+        "title": "Teaching and Learning Through Multiple Intelligences",
+        "abstract": null,
+        "url": null,
+        "published": "1998-10-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Multiple Intelligences and Reading Achievement: An Examination of the Teele Inventory of Multiple Intelligences",
+        "abstract": null,
+        "url": "https://doi.org/10.3200/jexe.71.1.41-52",
+        "published": "2004-10-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The correlation of multiple intelligences for the achievements of secondary students",
+        "abstract": null,
+        "url": "https://doi.org/10.5897/err2015.2532",
+        "published": "2016-02-20",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Incorporating Active Learning into Moral Education to Develop Multiple Intelligences: A Qualitative Approach",
+        "abstract": null,
+        "url": "https://doi.org/10.23917/ijolae.v3i1.10064",
+        "published": "2020-04-30",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Sex differences in self‐estimation of multiple intelligences among Portuguese adolescents",
+        "abstract": null,
+        "url": "https://doi.org/10.1080/13598130802504387",
+        "published": "2008-11-28",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Sex differences in self‐estimation of multiple intelligences among Hong Kong Chinese adolescents",
+        "abstract": null,
+        "url": "https://doi.org/10.1080/13598130600618009",
+        "published": "2006-04-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Impact of Physical Activity Practice and Adherence to the Mediterranean Diet in Relation to Multiple Intelligences among University Students",
+        "abstract": null,
+        "url": "https://doi.org/10.3390/nu12092630",
+        "published": "2020-08-28",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Multiple assessments for multiple intelligences",
+        "abstract": null,
+        "url": null,
+        "published": "1994-05-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Konsep Kecerdasan Majemuk Howard Gardner",
+        "abstract": null,
+        "url": "https://doi.org/10.32923/kjmp.v2i2.987",
+        "published": "2019-12-05",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Multiple Intelligences Profiles of Junior Secondary School Students in Indonesia",
+        "abstract": null,
+        "url": "https://doi.org/10.5539/ies.v7n11p103",
+        "published": "2014-10-29",
+        "source": "OpenAlex"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Multiple Intelligence: Learning with Interactive eGuide Book for Enhancing Young Children’s Intrapersonal and Interpersonal Intelligences",
+        "abstract": null,
+        "url": "https://doi.org/10.30595/dinamika.v15i1.17342",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Intrapersonal Intelligence",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-3-030-77584-1_8",
+        "published": "2021",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Profile Multiple Intelligence Siswa SMA Negeri 5 Kerinci: Linguistic, Interpersonal, Intrapersonal",
+        "abstract": null,
+        "url": "https://doi.org/10.32939/ijcd.v3i2.945",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Interpersonal and intrapersonal intelligences: Do they really work in foreign-language learning?",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.sbspro.2012.01.052",
+        "published": "2012",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Interpersonal and Intrapersonal Intelligences: Are they related to EFL Teachers’ Self-efficacy Beliefs?",
+        "abstract": null,
+        "url": "https://doi.org/10.37134/ajelp.vol8.1.6.2020",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "THE CORRELATION BETWEEN STUDENTS’ INTERPERSONAL AND INTRAPERSONAL INTELLIGENCES AND THEIR ENGLISH ACHIEVEMENT AT SMAN 2 KENDARI",
+        "abstract": null,
+        "url": "https://doi.org/10.36709/jte.v5i2.13613",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Relationship Between Iranian Intermediate EFL Learners’ Interpersonal and Intrapersonal Intelligences and Their Speaking Skill",
+        "abstract": null,
+        "url": "https://doi.org/10.46809/jpse.v5i1.79",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Interpersonal Acumen and Leadership Across Cultures: Pointers from the GLOBE Study",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781410606495-20",
+        "published": "2001",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Interpersonal Intelligence",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-3-030-77584-1_7",
+        "published": "2021",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Musical Intelligence",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-3-030-77584-1_19",
+        "published": "2021",
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]

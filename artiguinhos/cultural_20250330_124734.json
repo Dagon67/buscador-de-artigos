@@ -1,0 +1,184 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "Semantic Library Adaptation: LoRA Retrieval and Fusion for\n  Open-Vocabulary Semantic Segmentation",
+        "abstract": "Open-vocabulary semantic segmentation models associate vision and text to\nlabel pixels from an undefined set of classes using textual queries, providing\nversatile performance on novel datasets. However, large shifts between training\nand test domains degrade their performance, requiring fine-tuning for effective\nreal-world applications. We introduce Semantic Library Adaptation (SemLA), a\nnovel framework for training-free, test-time domain adaptation. SemLA leverages\na library of LoRA-based adapters indexed with CLIP embeddings, dynamically\nmerging the most relevant adapters based on proximity to the target domain in\nthe embedding space. This approach constructs an ad-hoc model tailored to each\nspecific input without additional training. Our method scales efficiently,\nenhances explainability by tracking adapter contributions, and inherently\nprotects data privacy, making it ideal for sensitive applications.\nComprehensive experiments on a 20-domain benchmark built over 10 standard\ndatasets demonstrate SemLA's superior adaptability and performance across\ndiverse settings, establishing a new standard in domain adaptation for\nopen-vocabulary semantic segmentation.",
+        "url": "http://arxiv.org/abs/2503.21780v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "VideoMage: Multi-Subject and Motion Customization of Text-to-Video\n  Diffusion Models",
+        "abstract": "Customized text-to-video generation aims to produce high-quality videos that\nincorporate user-specified subject identities or motion patterns. However,\nexisting methods mainly focus on personalizing a single concept, either subject\nidentity or motion pattern, limiting their effectiveness for multiple subjects\nwith the desired motion patterns. To tackle this challenge, we propose a\nunified framework VideoMage for video customization over both multiple subjects\nand their interactive motions. VideoMage employs subject and motion LoRAs to\ncapture personalized content from user-provided images and videos, along with\nan appearance-agnostic motion learning approach to disentangle motion patterns\nfrom visual appearance. Furthermore, we develop a spatial-temporal composition\nscheme to guide interactions among subjects within the desired motion patterns.\nExtensive experiments demonstrate that VideoMage outperforms existing methods,\ngenerating coherent, user-controlled videos with consistent subject identities\nand interactions.",
+        "url": "http://arxiv.org/abs/2503.21781v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Mobile-VideoGPT: Fast and Accurate Video Understanding Language Model",
+        "abstract": "Video understanding models often struggle with high computational\nrequirements, extensive parameter counts, and slow inference speed, making them\ninefficient for practical use. To tackle these challenges, we propose\nMobile-VideoGPT, an efficient multimodal framework designed to operate with\nfewer than a billion parameters. Unlike traditional video large multimodal\nmodels (LMMs), Mobile-VideoGPT consists of lightweight dual visual encoders,\nefficient projectors, and a small language model (SLM), enabling real-time\nthroughput. To further improve efficiency, we present an Attention-Based Frame\nScoring mechanism to select the key-frames, along with an efficient token\nprojector that prunes redundant visual tokens and preserves essential\ncontextual cues. We evaluate our model across well-established six video\nunderstanding benchmarks (e.g., MVBench, EgoSchema, NextQA, and PercepTest).\nOur results show that Mobile-VideoGPT-0.5B can generate up to 46 tokens per\nsecond while outperforming existing state-of-the-art 0.5B-parameter models by 6\npoints on average with 40% fewer parameters and more than 2x higher throughput.\nOur code and models are publicly available at:\nhttps://github.com/Amshaker/Mobile-VideoGPT.",
+        "url": "http://arxiv.org/abs/2503.21782v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time\n  Tomographic Reconstruction",
+        "abstract": "Four-dimensional computed tomography (4D CT) reconstruction is crucial for\ncapturing dynamic anatomical changes but faces inherent limitations from\nconventional phase-binning workflows. Current methods discretize temporal\nresolution into fixed phases with respiratory gating devices, introducing\nmotion misalignment and restricting clinical practicality. In this paper, We\npropose X$^2$-Gaussian, a novel framework that enables continuous-time 4D-CT\nreconstruction by integrating dynamic radiative Gaussian splatting with\nself-supervised respiratory motion learning. Our approach models anatomical\ndynamics through a spatiotemporal encoder-decoder architecture that predicts\ntime-varying Gaussian deformations, eliminating phase discretization. To remove\ndependency on external gating devices, we introduce a physiology-driven\nperiodic consistency loss that learns patient-specific breathing cycles\ndirectly from projections via differentiable optimization. Extensive\nexperiments demonstrate state-of-the-art performance, achieving a 9.93 dB PSNR\ngain over traditional methods and 2.25 dB improvement against prior Gaussian\nsplatting techniques. By unifying continuous motion modeling with hardware-free\nperiod learning, X$^2$-Gaussian advances high-fidelity 4D CT reconstruction for\ndynamic clinical imaging. Project website at: https://x2-gaussian.github.io/.",
+        "url": "http://arxiv.org/abs/2503.21779v1",
+        "published": "2025-03-27T17:59:57Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "HS-SLAM: Hybrid Representation with Structural Supervision for Improved\n  Dense SLAM",
+        "abstract": "NeRF-based SLAM has recently achieved promising results in tracking and\nreconstruction. However, existing methods face challenges in providing\nsufficient scene representation, capturing structural information, and\nmaintaining global consistency in scenes emerging significant movement or being\nforgotten. To this end, we present HS-SLAM to tackle these problems. To enhance\nscene representation capacity, we propose a hybrid encoding network that\ncombines the complementary strengths of hash-grid, tri-planes, and one-blob,\nimproving the completeness and smoothness of reconstruction. Additionally, we\nintroduce structural supervision by sampling patches of non-local pixels rather\nthan individual rays to better capture the scene structure. To ensure global\nconsistency, we implement an active global bundle adjustment (BA) to eliminate\ncamera drifts and mitigate accumulative errors. Experimental results\ndemonstrate that HS-SLAM outperforms the baselines in tracking and\nreconstruction accuracy while maintaining the efficiency required for robotics.",
+        "url": "http://arxiv.org/abs/2503.21778v1",
+        "published": "2025-03-27T17:59:54Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Test-Time Visual In-Context Tuning",
+        "abstract": "Visual in-context learning (VICL), as a new paradigm in computer vision,\nallows the model to rapidly adapt to various tasks with only a handful of\nprompts and examples. While effective, the existing VICL paradigm exhibits poor\ngeneralizability under distribution shifts. In this work, we propose test-time\nVisual In-Context Tuning (VICT), a method that can adapt VICL models on the fly\nwith a single test sample. Specifically, we flip the role between the task\nprompts and the test sample and use a cycle consistency loss to reconstruct the\noriginal task prompt output. Our key insight is that a model should be aware of\na new test distribution if it can successfully recover the original task\nprompts. Extensive experiments on six representative vision tasks ranging from\nhigh-level visual understanding to low-level image processing, with 15 common\ncorruptions, demonstrate that our VICT can improve the generalizability of VICL\nto unseen new domains. In addition, we show the potential of applying VICT for\nunseen tasks at test time. Code: https://github.com/Jiahao000/VICT.",
+        "url": "http://arxiv.org/abs/2503.21777v1",
+        "published": "2025-03-27T17:59:52Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+        "abstract": "Inspired by DeepSeek-R1's success in eliciting reasoning abilities through\nrule-based reinforcement learning (RL), we introduce Video-R1 as the first\nattempt to systematically explore the R1 paradigm for eliciting video reasoning\nwithin multimodal large language models (MLLMs). However, directly applying RL\ntraining with the GRPO algorithm to video reasoning presents two primary\nchallenges: (i) a lack of temporal modeling for video reasoning, and (ii) the\nscarcity of high-quality video-reasoning data. To address these issues, we\nfirst propose the T-GRPO algorithm, which encourages models to utilize temporal\ninformation in videos for reasoning. Additionally, instead of relying solely on\nvideo data, we incorporate high-quality image-reasoning data into the training\nprocess. We have constructed two datasets: Video-R1-COT-165k for SFT cold start\nand Video-R1-260k for RL training, both comprising image and video data.\nExperimental results demonstrate that Video-R1 achieves significant\nimprovements on video reasoning benchmarks such as VideoMMMU and VSI-Bench, as\nwell as on general video benchmarks including MVBench and TempCompass, etc.\nNotably, Video-R1-7B attains a 35.8% accuracy on video spatial reasoning\nbenchmark VSI-bench, surpassing the commercial proprietary model GPT-4o. All\ncodes, models, data are released.",
+        "url": "http://arxiv.org/abs/2503.21776v1",
+        "published": "2025-03-27T17:59:51Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Optimal Stepsize for Diffusion Sampling",
+        "abstract": "Diffusion models achieve remarkable generation quality but suffer from\ncomputational intensive sampling due to suboptimal step discretization. While\nexisting works focus on optimizing denoising directions, we address the\nprincipled design of stepsize schedules. This paper proposes Optimal Stepsize\nDistillation, a dynamic programming framework that extracts theoretically\noptimal schedules by distilling knowledge from reference trajectories. By\nreformulating stepsize optimization as recursive error minimization, our method\nguarantees global discretization bounds through optimal substructure\nexploitation. Crucially, the distilled schedules demonstrate strong robustness\nacross architectures, ODE solvers, and noise schedules. Experiments show 10x\naccelerated text-to-image generation while preserving 99.4% performance on\nGenEval. Our code is available at https://github.com/bebebe666/OptimalSteps.",
+        "url": "http://arxiv.org/abs/2503.21774v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross\n  Fusion",
+        "abstract": "We present StyleMotif, a novel Stylized Motion Latent Diffusion model,\ngenerating motion conditioned on both content and style from multiple\nmodalities. Unlike existing approaches that either focus on generating diverse\nmotion content or transferring style from sequences, StyleMotif seamlessly\nsynthesizes motion across a wide range of content while incorporating stylistic\ncues from multi-modal inputs, including motion, text, image, video, and audio.\nTo achieve this, we introduce a style-content cross fusion mechanism and align\na style encoder with a pre-trained multi-modal model, ensuring that the\ngenerated motion accurately captures the reference style while preserving\nrealism. Extensive experiments demonstrate that our framework surpasses\nexisting methods in stylized motion generation and exhibits emergent\ncapabilities for multi-modal motion stylization, enabling more nuanced motion\nsynthesis. Source code and pre-trained models will be released upon acceptance.\nProject Page: https://stylemotif.github.io",
+        "url": "http://arxiv.org/abs/2503.21775v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Simulating quantum circuits with restricted quantum computers",
+        "abstract": "It is one of the most fundamental objectives in quantum information science\nto understand the boundary between the computational power of classical and\nquantum computers. One possible avenue to explore this boundary is to identify\nclasses of quantum circuits that can be efficiently simulated on a classical\ncomputer. Instead of simulating a general quantum circuit with a classical\ndevice, new schemes have recently emerged to simulate them on a quantum device\nthat is restricted in some manner. As such, these techniques allow us to study\nhow the restrictions impact the computational power of the device. One such\ntechnique is called quasiprobability simulation (QPS) and it estimates the\nresult of a quantum circuit with a Monte Carlo procedure that randomly replaces\ncircuit elements with ones that can be executed on the restricted quantum\ndevice.\n  The main focus of this thesis is dedicated to the QPS-based simulation of\nnonlocal quantum computation using local quantum operations. On the practical\nside, this enables the simulation of large quantum circuits using multiple\nsmaller quantum devices - a procedure that is sometimes called circuit\nknitting. We uncover a rich mathematical formalism with many connections to the\nresource theory of entanglement. We characterize the optimal simulation\noverhead for a broad range of practically relevant nonlocal states and channels\nand we explicitly provide achieving protocols. Moreover, we also investigate\nthe utility of classical communication between the local parties. Our results\naddress both the single-shot and asymptotic regime.\n  We frame QPS in a quantum resource theoretic framework, which highlights\nsimilarities that arise in the different instantiations of the technique.\nFurthermore, we study the importance of classical side information in the QPS\nprocedure and how it impacts the overhead and expressibility of QPS.",
+        "url": "http://arxiv.org/abs/2503.21773v1",
+        "published": "2025-03-27T17:59:45Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [],
+    "error": "No results found"
+  },
+  {
+    "source": "OpenAlex",
+    "results": [
+      {
+        "title": "The Emerging Role of Intelligence in the World of the Future",
+        "abstract": null,
+        "url": "https://doi.org/10.3390/books978-3-03897-263-1",
+        "published": "2018-10-18",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Present but not accounted for: a phenomenological study of gifted African American males.",
+        "abstract": null,
+        "url": "https://doi.org/10.18297/etd/3103",
+        "published": "2018-01-01",
+        "source": "OpenAlex"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Prodigies",
+        "abstract": null,
+        "url": "https://doi.org/10.4135/9781412971959.n307",
+        "published": "2009",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Gender Equity and the Social Construction of Disability and Giftedness",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781315622255-24",
+        "published": "2015",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Early lives: prodigies and non-prodigies",
+        "abstract": null,
+        "url": "https://doi.org/10.1093/acprof:oso/9780198523734.003.0005",
+        "published": "1998",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Issues in the Definition and Measurement of the Giftedness Construct",
+        "abstract": null,
+        "url": "https://doi.org/10.2307/1174380",
+        "published": "1988",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Genius and Giftedness",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/b978-008043796-5/50008-5",
+        "published": "2000",
+        "source": "CrossRef"
+      },
+      {
+        "title": "No title",
+        "abstract": null,
+        "url": "https://doi.org/10.3030/793654",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Child Prodigies and Adult Genius:<i>A Weak Link</i>",
+        "abstract": null,
+        "url": "https://doi.org/10.1002/9781118367377.ch15",
+        "published": "2014",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Genius",
+        "abstract": null,
+        "url": "https://doi.org/10.4135/9781412971959.n165",
+        "published": "2009",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Educational Equity: Race/Ethnicity",
+        "abstract": null,
+        "url": "https://doi.org/10.4135/9781412963992.n137",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Issues in the Definition and Measurement of the Giftedness Construct",
+        "abstract": null,
+        "url": "https://doi.org/10.3102/0013189x017007012",
+        "published": "1988",
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]

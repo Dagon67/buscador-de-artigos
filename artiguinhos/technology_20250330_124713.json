@@ -1,0 +1,169 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "Semantic Library Adaptation: LoRA Retrieval and Fusion for\n  Open-Vocabulary Semantic Segmentation",
+        "abstract": "Open-vocabulary semantic segmentation models associate vision and text to\nlabel pixels from an undefined set of classes using textual queries, providing\nversatile performance on novel datasets. However, large shifts between training\nand test domains degrade their performance, requiring fine-tuning for effective\nreal-world applications. We introduce Semantic Library Adaptation (SemLA), a\nnovel framework for training-free, test-time domain adaptation. SemLA leverages\na library of LoRA-based adapters indexed with CLIP embeddings, dynamically\nmerging the most relevant adapters based on proximity to the target domain in\nthe embedding space. This approach constructs an ad-hoc model tailored to each\nspecific input without additional training. Our method scales efficiently,\nenhances explainability by tracking adapter contributions, and inherently\nprotects data privacy, making it ideal for sensitive applications.\nComprehensive experiments on a 20-domain benchmark built over 10 standard\ndatasets demonstrate SemLA's superior adaptability and performance across\ndiverse settings, establishing a new standard in domain adaptation for\nopen-vocabulary semantic segmentation.",
+        "url": "http://arxiv.org/abs/2503.21780v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "VideoMage: Multi-Subject and Motion Customization of Text-to-Video\n  Diffusion Models",
+        "abstract": "Customized text-to-video generation aims to produce high-quality videos that\nincorporate user-specified subject identities or motion patterns. However,\nexisting methods mainly focus on personalizing a single concept, either subject\nidentity or motion pattern, limiting their effectiveness for multiple subjects\nwith the desired motion patterns. To tackle this challenge, we propose a\nunified framework VideoMage for video customization over both multiple subjects\nand their interactive motions. VideoMage employs subject and motion LoRAs to\ncapture personalized content from user-provided images and videos, along with\nan appearance-agnostic motion learning approach to disentangle motion patterns\nfrom visual appearance. Furthermore, we develop a spatial-temporal composition\nscheme to guide interactions among subjects within the desired motion patterns.\nExtensive experiments demonstrate that VideoMage outperforms existing methods,\ngenerating coherent, user-controlled videos with consistent subject identities\nand interactions.",
+        "url": "http://arxiv.org/abs/2503.21781v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time\n  Tomographic Reconstruction",
+        "abstract": "Four-dimensional computed tomography (4D CT) reconstruction is crucial for\ncapturing dynamic anatomical changes but faces inherent limitations from\nconventional phase-binning workflows. Current methods discretize temporal\nresolution into fixed phases with respiratory gating devices, introducing\nmotion misalignment and restricting clinical practicality. In this paper, We\npropose X$^2$-Gaussian, a novel framework that enables continuous-time 4D-CT\nreconstruction by integrating dynamic radiative Gaussian splatting with\nself-supervised respiratory motion learning. Our approach models anatomical\ndynamics through a spatiotemporal encoder-decoder architecture that predicts\ntime-varying Gaussian deformations, eliminating phase discretization. To remove\ndependency on external gating devices, we introduce a physiology-driven\nperiodic consistency loss that learns patient-specific breathing cycles\ndirectly from projections via differentiable optimization. Extensive\nexperiments demonstrate state-of-the-art performance, achieving a 9.93 dB PSNR\ngain over traditional methods and 2.25 dB improvement against prior Gaussian\nsplatting techniques. By unifying continuous motion modeling with hardware-free\nperiod learning, X$^2$-Gaussian advances high-fidelity 4D CT reconstruction for\ndynamic clinical imaging. Project website at: https://x2-gaussian.github.io/.",
+        "url": "http://arxiv.org/abs/2503.21779v1",
+        "published": "2025-03-27T17:59:57Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Test-Time Visual In-Context Tuning",
+        "abstract": "Visual in-context learning (VICL), as a new paradigm in computer vision,\nallows the model to rapidly adapt to various tasks with only a handful of\nprompts and examples. While effective, the existing VICL paradigm exhibits poor\ngeneralizability under distribution shifts. In this work, we propose test-time\nVisual In-Context Tuning (VICT), a method that can adapt VICL models on the fly\nwith a single test sample. Specifically, we flip the role between the task\nprompts and the test sample and use a cycle consistency loss to reconstruct the\noriginal task prompt output. Our key insight is that a model should be aware of\na new test distribution if it can successfully recover the original task\nprompts. Extensive experiments on six representative vision tasks ranging from\nhigh-level visual understanding to low-level image processing, with 15 common\ncorruptions, demonstrate that our VICT can improve the generalizability of VICL\nto unseen new domains. In addition, we show the potential of applying VICT for\nunseen tasks at test time. Code: https://github.com/Jiahao000/VICT.",
+        "url": "http://arxiv.org/abs/2503.21777v1",
+        "published": "2025-03-27T17:59:52Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+        "abstract": "Inspired by DeepSeek-R1's success in eliciting reasoning abilities through\nrule-based reinforcement learning (RL), we introduce Video-R1 as the first\nattempt to systematically explore the R1 paradigm for eliciting video reasoning\nwithin multimodal large language models (MLLMs). However, directly applying RL\ntraining with the GRPO algorithm to video reasoning presents two primary\nchallenges: (i) a lack of temporal modeling for video reasoning, and (ii) the\nscarcity of high-quality video-reasoning data. To address these issues, we\nfirst propose the T-GRPO algorithm, which encourages models to utilize temporal\ninformation in videos for reasoning. Additionally, instead of relying solely on\nvideo data, we incorporate high-quality image-reasoning data into the training\nprocess. We have constructed two datasets: Video-R1-COT-165k for SFT cold start\nand Video-R1-260k for RL training, both comprising image and video data.\nExperimental results demonstrate that Video-R1 achieves significant\nimprovements on video reasoning benchmarks such as VideoMMMU and VSI-Bench, as\nwell as on general video benchmarks including MVBench and TempCompass, etc.\nNotably, Video-R1-7B attains a 35.8% accuracy on video spatial reasoning\nbenchmark VSI-bench, surpassing the commercial proprietary model GPT-4o. All\ncodes, models, data are released.",
+        "url": "http://arxiv.org/abs/2503.21776v1",
+        "published": "2025-03-27T17:59:51Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross\n  Fusion",
+        "abstract": "We present StyleMotif, a novel Stylized Motion Latent Diffusion model,\ngenerating motion conditioned on both content and style from multiple\nmodalities. Unlike existing approaches that either focus on generating diverse\nmotion content or transferring style from sequences, StyleMotif seamlessly\nsynthesizes motion across a wide range of content while incorporating stylistic\ncues from multi-modal inputs, including motion, text, image, video, and audio.\nTo achieve this, we introduce a style-content cross fusion mechanism and align\na style encoder with a pre-trained multi-modal model, ensuring that the\ngenerated motion accurately captures the reference style while preserving\nrealism. Extensive experiments demonstrate that our framework surpasses\nexisting methods in stylized motion generation and exhibits emergent\ncapabilities for multi-modal motion stylization, enabling more nuanced motion\nsynthesis. Source code and pre-trained models will be released upon acceptance.\nProject Page: https://stylemotif.github.io",
+        "url": "http://arxiv.org/abs/2503.21775v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "A Unified Image-Dense Annotation Generation Model for Underwater Scenes",
+        "abstract": "Underwater dense prediction, especially depth estimation and semantic\nsegmentation, is crucial for gaining a comprehensive understanding of\nunderwater scenes. Nevertheless, high-quality and large-scale underwater\ndatasets with dense annotations remain scarce because of the complex\nenvironment and the exorbitant data collection costs. This paper proposes a\nunified Text-to-Image and DEnse annotation generation method (TIDE) for\nunderwater scenes. It relies solely on text as input to simultaneously generate\nrealistic underwater images and multiple highly consistent dense annotations.\nSpecifically, we unify the generation of text-to-image and text-to-dense\nannotations within a single model. The Implicit Layout Sharing mechanism (ILS)\nand cross-modal interaction method called Time Adaptive Normalization (TAN) are\nintroduced to jointly optimize the consistency between image and dense\nannotations. We synthesize a large-scale underwater dataset using TIDE to\nvalidate the effectiveness of our method in underwater dense prediction tasks.\nThe results demonstrate that our method effectively improves the performance of\nexisting underwater dense prediction models and mitigates the scarcity of\nunderwater data with dense annotations. We hope our method can offer new\nperspectives on alleviating data scarcity issues in other fields. The code is\navailable at https: //github.com/HongkLin/TIDE.",
+        "url": "http://arxiv.org/abs/2503.21771v1",
+        "published": "2025-03-27T17:59:43Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Visual Jenga: Discovering Object Dependencies via Counterfactual\n  Inpainting",
+        "abstract": "This paper proposes a novel scene understanding task called Visual Jenga.\nDrawing inspiration from the game Jenga, the proposed task involves\nprogressively removing objects from a single image until only the background\nremains. Just as Jenga players must understand structural dependencies to\nmaintain tower stability, our task reveals the intrinsic relationships between\nscene elements by systematically exploring which objects can be removed while\npreserving scene coherence in both physical and geometric sense. As a starting\npoint for tackling the Visual Jenga task, we propose a simple, data-driven,\ntraining-free approach that is surprisingly effective on a range of real-world\nimages. The principle behind our approach is to utilize the asymmetry in the\npairwise relationships between objects within a scene and employ a large\ninpainting model to generate a set of counterfactuals to quantify the\nasymmetry.",
+        "url": "http://arxiv.org/abs/2503.21770v1",
+        "published": "2025-03-27T17:59:33Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Exploring the Evolution of Physics Cognition in Video Generation: A\n  Survey",
+        "abstract": "Recent advancements in video generation have witnessed significant progress,\nespecially with the rapid advancement of diffusion models. Despite this, their\ndeficiencies in physical cognition have gradually received widespread attention\n- generated content often violates the fundamental laws of physics, falling\ninto the dilemma of ''visual realism but physical absurdity\". Researchers began\nto increasingly recognize the importance of physical fidelity in video\ngeneration and attempted to integrate heuristic physical cognition such as\nmotion representations and physical knowledge into generative systems to\nsimulate real-world dynamic scenarios. Considering the lack of a systematic\noverview in this field, this survey aims to provide a comprehensive summary of\narchitecture designs and their applications to fill this gap. Specifically, we\ndiscuss and organize the evolutionary process of physical cognition in video\ngeneration from a cognitive science perspective, while proposing a three-tier\ntaxonomy: 1) basic schema perception for generation, 2) passive cognition of\nphysical knowledge for generation, and 3) active cognition for world\nsimulation, encompassing state-of-the-art methods, classical paradigms, and\nbenchmarks. Subsequently, we emphasize the inherent key challenges in this\ndomain and delineate potential pathways for future research, contributing to\nadvancing the frontiers of discussion in both academia and industry. Through\nstructured review and interdisciplinary analysis, this survey aims to provide\ndirectional guidance for developing interpretable, controllable, and physically\nconsistent video generation paradigms, thereby propelling generative models\nfrom the stage of ''visual mimicry'' towards a new phase of ''human-like\nphysical comprehension''.",
+        "url": "http://arxiv.org/abs/2503.21765v1",
+        "published": "2025-03-27T17:58:33Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Identification and estimation of treatment effects in a linear factor\n  model with fixed number of time periods",
+        "abstract": "This paper provides a new approach for identifying and estimating the Average\nTreatment Effect on the Treated under a linear factor model that allows for\nmultiple time-varying unobservables. Unlike the majority of the literature on\ntreatment effects in linear factor models, our approach does not require the\nnumber of pre-treatment periods to go to infinity to obtain a valid estimator.\nOur identification approach employs a certain nonlinear transformations of the\ntime invariant observed covariates that are sufficiently correlated with the\nunobserved variables. This relevance condition can be checked with the\navailable data on pre-treatment periods by validating the correlation of the\ntransformed covariates and the pre-treatment outcomes. Based on our\nidentification approach, we provide an asymptotically unbiased estimator of the\neffect of participating in the treatment when there is only one treated unit\nand the number of control units is large.",
+        "url": "http://arxiv.org/abs/2503.21763v1",
+        "published": "2025-03-27T17:58:17Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [],
+    "error": "No results found"
+  },
+  {
+    "source": "OpenAlex",
+    "results": [],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Classical Machine-Learning Paradigms for Data Mining",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/b10867-7",
+        "published": "2016",
+        "source": "CrossRef"
+      },
+      {
+        "title": "AI in Teaching and Learning and Intelligent Tutoring Systems",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-981-97-9350-1_4",
+        "published": "2024",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Dealing Crisis Management using AI",
+        "abstract": null,
+        "url": "https://doi.org/10.5121/csit.2021.111409",
+        "published": "2021",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Classical Machine-Learning Paradigms for Data Mining",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/b10867-3",
+        "published": "2011",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Transforming Pharma with Data Science, AI and Machine Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/9781003150886-1",
+        "published": "2022",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Research on Internet Intelligent Tutoring System based on MAS and data mining",
+        "abstract": null,
+        "url": "https://doi.org/10.1109/icmlc.2009.5212562",
+        "published": "2009",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Machine Learning for Anomaly Detection",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/b10867-9",
+        "published": "2016",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Machine Learning for Scan Detection",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/b10867-11",
+        "published": "2016",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Learning Curves in Machine Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-1-4899-7687-1_452",
+        "published": "2017",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Machine Learning for Hybrid Detection",
+        "abstract": null,
+        "url": "https://doi.org/10.1201/b10867-10",
+        "published": "2016",
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]

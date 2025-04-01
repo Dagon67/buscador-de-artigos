@@ -1,0 +1,240 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "Semantic Library Adaptation: LoRA Retrieval and Fusion for\n  Open-Vocabulary Semantic Segmentation",
+        "abstract": "Open-vocabulary semantic segmentation models associate vision and text to\nlabel pixels from an undefined set of classes using textual queries, providing\nversatile performance on novel datasets. However, large shifts between training\nand test domains degrade their performance, requiring fine-tuning for effective\nreal-world applications. We introduce Semantic Library Adaptation (SemLA), a\nnovel framework for training-free, test-time domain adaptation. SemLA leverages\na library of LoRA-based adapters indexed with CLIP embeddings, dynamically\nmerging the most relevant adapters based on proximity to the target domain in\nthe embedding space. This approach constructs an ad-hoc model tailored to each\nspecific input without additional training. Our method scales efficiently,\nenhances explainability by tracking adapter contributions, and inherently\nprotects data privacy, making it ideal for sensitive applications.\nComprehensive experiments on a 20-domain benchmark built over 10 standard\ndatasets demonstrate SemLA's superior adaptability and performance across\ndiverse settings, establishing a new standard in domain adaptation for\nopen-vocabulary semantic segmentation.",
+        "url": "http://arxiv.org/abs/2503.21780v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "VideoMage: Multi-Subject and Motion Customization of Text-to-Video\n  Diffusion Models",
+        "abstract": "Customized text-to-video generation aims to produce high-quality videos that\nincorporate user-specified subject identities or motion patterns. However,\nexisting methods mainly focus on personalizing a single concept, either subject\nidentity or motion pattern, limiting their effectiveness for multiple subjects\nwith the desired motion patterns. To tackle this challenge, we propose a\nunified framework VideoMage for video customization over both multiple subjects\nand their interactive motions. VideoMage employs subject and motion LoRAs to\ncapture personalized content from user-provided images and videos, along with\nan appearance-agnostic motion learning approach to disentangle motion patterns\nfrom visual appearance. Furthermore, we develop a spatial-temporal composition\nscheme to guide interactions among subjects within the desired motion patterns.\nExtensive experiments demonstrate that VideoMage outperforms existing methods,\ngenerating coherent, user-controlled videos with consistent subject identities\nand interactions.",
+        "url": "http://arxiv.org/abs/2503.21781v1",
+        "published": "2025-03-27T17:59:58Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time\n  Tomographic Reconstruction",
+        "abstract": "Four-dimensional computed tomography (4D CT) reconstruction is crucial for\ncapturing dynamic anatomical changes but faces inherent limitations from\nconventional phase-binning workflows. Current methods discretize temporal\nresolution into fixed phases with respiratory gating devices, introducing\nmotion misalignment and restricting clinical practicality. In this paper, We\npropose X$^2$-Gaussian, a novel framework that enables continuous-time 4D-CT\nreconstruction by integrating dynamic radiative Gaussian splatting with\nself-supervised respiratory motion learning. Our approach models anatomical\ndynamics through a spatiotemporal encoder-decoder architecture that predicts\ntime-varying Gaussian deformations, eliminating phase discretization. To remove\ndependency on external gating devices, we introduce a physiology-driven\nperiodic consistency loss that learns patient-specific breathing cycles\ndirectly from projections via differentiable optimization. Extensive\nexperiments demonstrate state-of-the-art performance, achieving a 9.93 dB PSNR\ngain over traditional methods and 2.25 dB improvement against prior Gaussian\nsplatting techniques. By unifying continuous motion modeling with hardware-free\nperiod learning, X$^2$-Gaussian advances high-fidelity 4D CT reconstruction for\ndynamic clinical imaging. Project website at: https://x2-gaussian.github.io/.",
+        "url": "http://arxiv.org/abs/2503.21779v1",
+        "published": "2025-03-27T17:59:57Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Test-Time Visual In-Context Tuning",
+        "abstract": "Visual in-context learning (VICL), as a new paradigm in computer vision,\nallows the model to rapidly adapt to various tasks with only a handful of\nprompts and examples. While effective, the existing VICL paradigm exhibits poor\ngeneralizability under distribution shifts. In this work, we propose test-time\nVisual In-Context Tuning (VICT), a method that can adapt VICL models on the fly\nwith a single test sample. Specifically, we flip the role between the task\nprompts and the test sample and use a cycle consistency loss to reconstruct the\noriginal task prompt output. Our key insight is that a model should be aware of\na new test distribution if it can successfully recover the original task\nprompts. Extensive experiments on six representative vision tasks ranging from\nhigh-level visual understanding to low-level image processing, with 15 common\ncorruptions, demonstrate that our VICT can improve the generalizability of VICL\nto unseen new domains. In addition, we show the potential of applying VICT for\nunseen tasks at test time. Code: https://github.com/Jiahao000/VICT.",
+        "url": "http://arxiv.org/abs/2503.21777v1",
+        "published": "2025-03-27T17:59:52Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+        "abstract": "Inspired by DeepSeek-R1's success in eliciting reasoning abilities through\nrule-based reinforcement learning (RL), we introduce Video-R1 as the first\nattempt to systematically explore the R1 paradigm for eliciting video reasoning\nwithin multimodal large language models (MLLMs). However, directly applying RL\ntraining with the GRPO algorithm to video reasoning presents two primary\nchallenges: (i) a lack of temporal modeling for video reasoning, and (ii) the\nscarcity of high-quality video-reasoning data. To address these issues, we\nfirst propose the T-GRPO algorithm, which encourages models to utilize temporal\ninformation in videos for reasoning. Additionally, instead of relying solely on\nvideo data, we incorporate high-quality image-reasoning data into the training\nprocess. We have constructed two datasets: Video-R1-COT-165k for SFT cold start\nand Video-R1-260k for RL training, both comprising image and video data.\nExperimental results demonstrate that Video-R1 achieves significant\nimprovements on video reasoning benchmarks such as VideoMMMU and VSI-Bench, as\nwell as on general video benchmarks including MVBench and TempCompass, etc.\nNotably, Video-R1-7B attains a 35.8% accuracy on video spatial reasoning\nbenchmark VSI-bench, surpassing the commercial proprietary model GPT-4o. All\ncodes, models, data are released.",
+        "url": "http://arxiv.org/abs/2503.21776v1",
+        "published": "2025-03-27T17:59:51Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Optimal Stepsize for Diffusion Sampling",
+        "abstract": "Diffusion models achieve remarkable generation quality but suffer from\ncomputational intensive sampling due to suboptimal step discretization. While\nexisting works focus on optimizing denoising directions, we address the\nprincipled design of stepsize schedules. This paper proposes Optimal Stepsize\nDistillation, a dynamic programming framework that extracts theoretically\noptimal schedules by distilling knowledge from reference trajectories. By\nreformulating stepsize optimization as recursive error minimization, our method\nguarantees global discretization bounds through optimal substructure\nexploitation. Crucially, the distilled schedules demonstrate strong robustness\nacross architectures, ODE solvers, and noise schedules. Experiments show 10x\naccelerated text-to-image generation while preserving 99.4% performance on\nGenEval. Our code is available at https://github.com/bebebe666/OptimalSteps.",
+        "url": "http://arxiv.org/abs/2503.21774v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross\n  Fusion",
+        "abstract": "We present StyleMotif, a novel Stylized Motion Latent Diffusion model,\ngenerating motion conditioned on both content and style from multiple\nmodalities. Unlike existing approaches that either focus on generating diverse\nmotion content or transferring style from sequences, StyleMotif seamlessly\nsynthesizes motion across a wide range of content while incorporating stylistic\ncues from multi-modal inputs, including motion, text, image, video, and audio.\nTo achieve this, we introduce a style-content cross fusion mechanism and align\na style encoder with a pre-trained multi-modal model, ensuring that the\ngenerated motion accurately captures the reference style while preserving\nrealism. Extensive experiments demonstrate that our framework surpasses\nexisting methods in stylized motion generation and exhibits emergent\ncapabilities for multi-modal motion stylization, enabling more nuanced motion\nsynthesis. Source code and pre-trained models will be released upon acceptance.\nProject Page: https://stylemotif.github.io",
+        "url": "http://arxiv.org/abs/2503.21775v1",
+        "published": "2025-03-27T17:59:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "LOCORE: Image Re-ranking with Long-Context Sequence Modeling",
+        "abstract": "We introduce LOCORE, Long-Context Re-ranker, a model that takes as input\nlocal descriptors corresponding to an image query and a list of gallery images\nand outputs similarity scores between the query and each gallery image. This\nmodel is used for image retrieval, where typically a first ranking is performed\nwith an efficient similarity measure, and then a shortlist of top-ranked images\nis re-ranked based on a more fine-grained similarity measure. Compared to\nexisting methods that perform pair-wise similarity estimation with local\ndescriptors or list-wise re-ranking with global descriptors, LOCORE is the\nfirst method to perform list-wise re-ranking with local descriptors. To achieve\nthis, we leverage efficient long-context sequence models to effectively capture\nthe dependencies between query and gallery images at the local-descriptor\nlevel. During testing, we process long shortlists with a sliding window\nstrategy that is tailored to overcome the context size limitations of sequence\nmodels. Our approach achieves superior performance compared with other\nre-rankers on established image retrieval benchmarks of landmarks (ROxf and\nRPar), products (SOP), fashion items (In-Shop), and bird species (CUB-200)\nwhile having comparable latency to the pair-wise local descriptor re-rankers.",
+        "url": "http://arxiv.org/abs/2503.21772v1",
+        "published": "2025-03-27T17:59:44Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Exploring the Evolution of Physics Cognition in Video Generation: A\n  Survey",
+        "abstract": "Recent advancements in video generation have witnessed significant progress,\nespecially with the rapid advancement of diffusion models. Despite this, their\ndeficiencies in physical cognition have gradually received widespread attention\n- generated content often violates the fundamental laws of physics, falling\ninto the dilemma of ''visual realism but physical absurdity\". Researchers began\nto increasingly recognize the importance of physical fidelity in video\ngeneration and attempted to integrate heuristic physical cognition such as\nmotion representations and physical knowledge into generative systems to\nsimulate real-world dynamic scenarios. Considering the lack of a systematic\noverview in this field, this survey aims to provide a comprehensive summary of\narchitecture designs and their applications to fill this gap. Specifically, we\ndiscuss and organize the evolutionary process of physical cognition in video\ngeneration from a cognitive science perspective, while proposing a three-tier\ntaxonomy: 1) basic schema perception for generation, 2) passive cognition of\nphysical knowledge for generation, and 3) active cognition for world\nsimulation, encompassing state-of-the-art methods, classical paradigms, and\nbenchmarks. Subsequently, we emphasize the inherent key challenges in this\ndomain and delineate potential pathways for future research, contributing to\nadvancing the frontiers of discussion in both academia and industry. Through\nstructured review and interdisciplinary analysis, this survey aims to provide\ndirectional guidance for developing interpretable, controllable, and physically\nconsistent video generation paradigms, thereby propelling generative models\nfrom the stage of ''visual mimicry'' towards a new phase of ''human-like\nphysical comprehension''.",
+        "url": "http://arxiv.org/abs/2503.21765v1",
+        "published": "2025-03-27T17:58:33Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single\n  Video",
+        "abstract": "This paper presents a unified approach to understanding dynamic scenes from\ncasual videos. Large pretrained vision foundation models, such as\nvision-language, video depth prediction, motion tracking, and segmentation\nmodels, offer promising capabilities. However, training a single model for\ncomprehensive 4D understanding remains challenging. We introduce Uni4D, a\nmulti-stage optimization framework that harnesses multiple pretrained models to\nadvance dynamic 3D modeling, including static/dynamic reconstruction, camera\npose estimation, and dense 3D motion tracking. Our results show\nstate-of-the-art performance in dynamic 4D modeling with superior visual\nquality. Notably, Uni4D requires no retraining or fine-tuning, highlighting the\neffectiveness of repurposing visual foundation models for 4D understanding.",
+        "url": "http://arxiv.org/abs/2503.21761v1",
+        "published": "2025-03-27T17:57:32Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [],
+    "error": "No results found"
+  },
+  {
+    "source": "OpenAlex",
+    "results": [
+      {
+        "title": "Conducting Educational Design Research",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781315105642",
+        "published": "2018-09-03",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Theory and practice of online learning",
+        "abstract": null,
+        "url": "https://doi.org/10.1111/j.1467-8535.2005.00445_1.x",
+        "published": "2004-12-02",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The Nature of Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.1787/9789264086487-en",
+        "published": "2010-08-09",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Autonomous and controlled regulation of performance-approach goals: Their relations to perfectionism and educational outcomes",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/s11031-010-9188-3",
+        "published": "2010-10-22",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Developing Resilient Agency in Learning: The Internal Structure of Learning Power",
+        "abstract": null,
+        "url": "https://doi.org/10.1080/00071005.2015.1006574",
+        "published": "2015-03-24",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Online and other ICT-based Training Tools for Problem-solving Skills",
+        "abstract": null,
+        "url": "https://doi.org/10.3991/ijet.v11i06.5340",
+        "published": "2016-06-27",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Co-operative learning: what makes group-work work?",
+        "abstract": null,
+        "url": "https://doi.org/10.1787/9789264086487-9-en",
+        "published": "2010-08-10",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Educating the Developing Mind: Towards an Overarching Paradigm",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/s10648-011-9178-3",
+        "published": "2011-09-12",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Pedagogical applications of cognitive research on musical improvisation",
+        "abstract": null,
+        "url": "https://doi.org/10.3389/fpsyg.2015.00614",
+        "published": "2015-05-11",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Chinese Education Examined via the Lens of Self-Determination",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/s10648-016-9395-x",
+        "published": "2016-12-24",
+        "source": "OpenAlex"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Effects of metacognitive strategies on self-regulated learning process: Mediating effects of self-efficacy",
+        "abstract": null,
+        "url": "https://doi.org/10.26226/morressier.5cf632bbaf72dec2b05546dc",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Profile of Self-Efficacy, Metacognitive Skills, Self-Regulated Learning, and Biology Cognitive Learning Outcomes of Public High School Students",
+        "abstract": null,
+        "url": "https://doi.org/10.21275/sr23830084550",
+        "published": "2023",
+        "source": "CrossRef"
+      },
+      {
+        "title": "A Cognitive and Metacognitive Analysis of Self-Regulated Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9780203839010.ch2",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Transfer of Metacognitive Strategies in Self-Regulated Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.3102/1437295",
+        "published": "2019",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Research on metacognitive strategies of children’s self-regulated learning",
+        "abstract": null,
+        "url": "https://doi.org/10.52965/001c.120366",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Self-regulated Strategies and Cognitive Styles in Multimedia Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.4018/978-1-61692-901-5.ch004",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Metacognitive Knowledge and Self-Regulated Learning Strategies in Reading: A Comparative Study",
+        "abstract": null,
+        "url": "https://doi.org/10.1037/e567612014-001",
+        "published": "2014",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Figure 8.7 Effect of metacognitive scaffolding on self-regulated learning",
+        "abstract": null,
+        "url": "https://doi.org/10.1787/888933149255",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Students' and Teachers' Mindsets About Self-Regulated Learning: Do They Impact Learning Environments, Metacognitive Strategies, and Achievement?",
+        "abstract": null,
+        "url": "https://doi.org/10.3102/2019030",
+        "published": "2023",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Effectiveness of Cognitive and Metacognitive Strategies in Scaffolding based Self-Regulated Learning System and Formal Learning System",
+        "abstract": null,
+        "url": "https://doi.org/10.6007/ijarped/v2-i3/47",
+        "published": null,
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]

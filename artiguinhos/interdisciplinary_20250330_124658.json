@@ -1,0 +1,311 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "Simulating quantum circuits with restricted quantum computers",
+        "abstract": "It is one of the most fundamental objectives in quantum information science\nto understand the boundary between the computational power of classical and\nquantum computers. One possible avenue to explore this boundary is to identify\nclasses of quantum circuits that can be efficiently simulated on a classical\ncomputer. Instead of simulating a general quantum circuit with a classical\ndevice, new schemes have recently emerged to simulate them on a quantum device\nthat is restricted in some manner. As such, these techniques allow us to study\nhow the restrictions impact the computational power of the device. One such\ntechnique is called quasiprobability simulation (QPS) and it estimates the\nresult of a quantum circuit with a Monte Carlo procedure that randomly replaces\ncircuit elements with ones that can be executed on the restricted quantum\ndevice.\n  The main focus of this thesis is dedicated to the QPS-based simulation of\nnonlocal quantum computation using local quantum operations. On the practical\nside, this enables the simulation of large quantum circuits using multiple\nsmaller quantum devices - a procedure that is sometimes called circuit\nknitting. We uncover a rich mathematical formalism with many connections to the\nresource theory of entanglement. We characterize the optimal simulation\noverhead for a broad range of practically relevant nonlocal states and channels\nand we explicitly provide achieving protocols. Moreover, we also investigate\nthe utility of classical communication between the local parties. Our results\naddress both the single-shot and asymptotic regime.\n  We frame QPS in a quantum resource theoretic framework, which highlights\nsimilarities that arise in the different instantiations of the technique.\nFurthermore, we study the importance of classical side information in the QPS\nprocedure and how it impacts the overhead and expressibility of QPS.",
+        "url": "http://arxiv.org/abs/2503.21773v1",
+        "published": "2025-03-27T17:59:45Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Exploring the Evolution of Physics Cognition in Video Generation: A\n  Survey",
+        "abstract": "Recent advancements in video generation have witnessed significant progress,\nespecially with the rapid advancement of diffusion models. Despite this, their\ndeficiencies in physical cognition have gradually received widespread attention\n- generated content often violates the fundamental laws of physics, falling\ninto the dilemma of ''visual realism but physical absurdity\". Researchers began\nto increasingly recognize the importance of physical fidelity in video\ngeneration and attempted to integrate heuristic physical cognition such as\nmotion representations and physical knowledge into generative systems to\nsimulate real-world dynamic scenarios. Considering the lack of a systematic\noverview in this field, this survey aims to provide a comprehensive summary of\narchitecture designs and their applications to fill this gap. Specifically, we\ndiscuss and organize the evolutionary process of physical cognition in video\ngeneration from a cognitive science perspective, while proposing a three-tier\ntaxonomy: 1) basic schema perception for generation, 2) passive cognition of\nphysical knowledge for generation, and 3) active cognition for world\nsimulation, encompassing state-of-the-art methods, classical paradigms, and\nbenchmarks. Subsequently, we emphasize the inherent key challenges in this\ndomain and delineate potential pathways for future research, contributing to\nadvancing the frontiers of discussion in both academia and industry. Through\nstructured review and interdisciplinary analysis, this survey aims to provide\ndirectional guidance for developing interpretable, controllable, and physically\nconsistent video generation paradigms, thereby propelling generative models\nfrom the stage of ''visual mimicry'' towards a new phase of ''human-like\nphysical comprehension''.",
+        "url": "http://arxiv.org/abs/2503.21765v1",
+        "published": "2025-03-27T17:58:33Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "On the open TS/ST correspondence",
+        "abstract": "The topological string/spectral theory correspondence establishes a precise,\nnon-perturbative duality between topological strings on local Calabi-Yau\nthreefolds and the spectral theory of quantized mirror curves. While this\nduality has been rigorously formulated for the closed topological string\nsector, the open string sector remains less understood. Building on the results\nof [1-3], we make further progress in this direction by constructing entire,\noff-shell eigenfunctions for the quantized mirror curve from open topological\nstring partition functions. We focus on local $\\mathbb{F}_0$, whose mirror\ncurve corresponds to the Baxter equation of the two-particle, relativistic Toda\nlattice. We then study the standard and dual four-dimensional limits, where the\nquantum mirror curve for local $\\mathbb{F}_0$ degenerates into the modified\nMathieu and McCoy-Tracy-Wu operators, respectively. In these limits, our\nframework provides a way to construct entire, off-shell eigenfunctions for the\ndifference equations associated with these operators. Furthermore, we find a\nsimple relation between the on-shell eigenfunctions of the modified Mathieu and\nMcCoy-Tracy-Wu operators, leading to a functional relation between the\noperators themselves.",
+        "url": "http://arxiv.org/abs/2503.21762v1",
+        "published": "2025-03-27T17:57:37Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Extracting energy via bosonic Gaussian operations",
+        "abstract": "Quantum thermodynamics is often formulated as a theory with constrained\naccess to operations and resources. In this manuscript, we find a closed\nformula for the Gaussian ergotropy, i.e. the maximum energy that can be\nextracted from bosonic systems governed by quadratic Hamiltonians by means of\nGaussian unitaries only. This formula resembles the well-known eigenvalue-based\nexpression for the standard ergotropy, but is instead formulated using\nsymplectic eigenvalues. We further prove that the Gaussian ergotropy is\nadditive, indicating that the multiple-copy scenario does not benefit from\nGaussian entangling operations. Extending our analysis to the relationship\nbetween ergotropic and entropic functions, we establish bounds linking entropic\nmeasures of Gaussianity to extractable work. Finally, we generalise our\nframework to open systems by studying the optimal state preparation that\nminimises the energy output in a Gaussian channel.",
+        "url": "http://arxiv.org/abs/2503.21748v1",
+        "published": "2025-03-27T17:56:00Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Les Houches lectures on non-perturbative Seiberg-Witten geometry",
+        "abstract": "In these lectures we detail the interplay between the low-energy dynamics of\nquantum field theories with four supercharges and the exact WKB analysis. This\nexposition may be the first comprehensive account of this connection,\ncontaining various novel arguments and illustrative examples.\n  The lectures start with the introduction of massive two-dimensional\n$\\mathcal{N}=(2,2)$ theories and their spectra of BPS solitons. We place these\ntheories in a two-dimensional cigar background with supersymmetric boundary\nconditions labelled by a phase $\\zeta = e^{i \\vartheta}$, while turning on the\ntwo-dimensional $\\Omega$-background with parameter~$\\epsilon$. We show that the\nresulting partition function $\\mathcal{Z}_{\\mathrm{2d}}^\\vartheta(\\epsilon)$\ncan be characterized as the Borel-summed solution, in the direction\n$\\vartheta$, to an associated Schr\\\"odinger equation. The partition function\n$\\mathcal{Z}_{\\mathrm{2d}}^\\vartheta(\\epsilon)$ is locally constant in the\nphase $\\vartheta$ and jumps across phases $\\vartheta_\\textrm{BPS}$ associated\nwith the BPS solitons. Since these jumps are non-perturbative in the\nparameter~$\\epsilon$, we refer to $Z^\\vartheta_\\mathrm{2d}(\\epsilon)$ as the\nnon-perturbative partition function for the original two-dimensional\n$\\mathcal{N}=(2,2)$ theory. We completely determine this partition function\n$\\mathcal{Z}^\\vartheta_\\mathrm{2d}(\\epsilon)$ in two classes of examples,\nLandau-Ginzburg models and gauged linear sigma models, and show that\n$\\mathcal{Z}^\\vartheta_\\mathrm{2d}(\\epsilon)$ encodes the well-known vortex\npartition function at a special phase $\\vartheta_\\textrm{FN}$ associated with\nthe presence of self-solitons. This analysis generalizes to four-dimensional\n$\\mathcal{N}=2$ theories in the $\\frac{1}{2} \\Omega$-background.",
+        "url": "http://arxiv.org/abs/2503.21742v1",
+        "published": "2025-03-27T17:51:48Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Transitioning to Memory Burden: Detectable Small Primordial Black Holes\n  as Dark Matter",
+        "abstract": "Mounting theoretical evidence suggests that black holes are subjected to the\nmemory burden effect, implying that after certain time the information stored\nin them suppresses the decay rate. This effect opens up a new window for small\nprimordial black holes (PBHs) below $10^{15}\\,{\\rm g}$ as dark matter. We show\nthat the smooth transition from semi-classical evaporation to the\nmemory-burdened phase strongly impacts observational bounds on the abundance of\nsmall PBHs. The most stringent constraints come from present-day fluxes of\nastrophysical particles. Remarkably, currently-transitioning small PBHs are\ndetectable through high-energetic neutrino events.",
+        "url": "http://arxiv.org/abs/2503.21740v1",
+        "published": "2025-03-27T17:51:05Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Energy Minimization for Participatory Federated Learning in IoT Analyzed\n  via Game Theory",
+        "abstract": "The Internet of Things requires intelligent decision making in many\nscenarios. To this end, resources available at the individual nodes for sensing\nor computing, or both, can be leveraged. This results in approaches known as\nparticipatory sensing and federated learning, respectively. We investigate the\nsimultaneous implementation of both, through a distributed approach based on\nempowering local nodes with game theoretic decision making. A global objective\nof energy minimization is combined with the individual node's optimization of\nlocal expenditure for sensing and transmitting data over multiple learning\nrounds. We present extensive evaluations of this technique, based on both a\ntheoretical framework and experiments in a simulated network scenario with real\ndata. Such a distributed approach can reach a desired level of accuracy for\nfederated learning without a centralized supervision of the data collector.\nHowever, depending on the weight attributed to the local costs of the single\nnode, it may also result in a significantly high Price of Anarchy (from 1.28\nonwards). Thus, we argue for the need of incentive mechanisms, possibly based\non Age of Information of the single nodes.",
+        "url": "http://arxiv.org/abs/2503.21722v1",
+        "published": "2025-03-27T17:35:38Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Investigating Experiential Effects in Online Chess using a Hierarchical\n  Bayesian Analysis",
+        "abstract": "The presence or absence of winner-loser effects is a widely discussed\nphenomenon across both sports and psychology research. Investigation of such\neffects is often hampered by the limited availability of data. Online chess has\nexploded in popularity in recent years and provides vast amounts of data which\ncan be used to explore this question. With a hierarchical Bayesian regression\nmodel, we carefully investigate the presence of such experiential effects in\nonline chess. Using a large quantity of online chess data, we see little\nevidence for experiential effects that are consistent across all players, with\nsome individual players showing some evidence for such effects. Given the\nchallenging temporal nature of this data, we discuss several methods for\nassessing the suitability of our model and carefully check its validity.",
+        "url": "http://arxiv.org/abs/2503.21713v1",
+        "published": "2025-03-27T17:24:48Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Redefining Network Topology in Complex Systems: Merging Centrality\n  Metrics, Spectral Theory, and Diffusion Dynamics",
+        "abstract": "This paper introduces a novel framework that combines traditional centrality\nmeasures with eigenvalue spectra and diffusion processes for a more\ncomprehensive analysis of complex networks. While centrality measures such as\ndegree, closeness, and betweenness have been commonly used to assess nodal\nimportance, they provide limited insight into dynamic network behaviors. By\nincorporating eigenvalue analysis, which evaluates network robustness and\nconnectivity through spectral properties, and diffusion processes that model\ninformation flow, this framework offers a deeper understanding of how networks\nfunction under dynamic conditions. Applied to synthetic networks, the approach\nidentifies key nodes not only by centrality but also by their role in diffusion\ndynamics and vulnerability points, offering a multi-dimensional view that\ntraditional methods alone cannot. This integrated analysis enables a more\nprecise identification of critical nodes and potential weaknesses, with\nimplications for improving network resilience in fields ranging from\nepidemiology to cybersecurity. Keywords: Centrality measures, eigenvalue\nspectra, diffusion processes, network analysis, network robustness, information\nflow, synthetic networks.",
+        "url": "http://arxiv.org/abs/2503.21709v1",
+        "published": "2025-03-27T17:21:46Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Heterostructure Effects on the Magnetocrystalline Anisotropy Energy of\n  MnN",
+        "abstract": "Thin film effects on the Magnetocrystalline Anisotropy Energy (MAE) of MnN\nwere studied using density functional theory (DFT). Initially, strain effects\non bulk MnN were considered as a proxy for lattice-matching induced strain and\na linear relationship between the c/a ratio and the MAE was found. This\nrelationship was explained in terms of underlying point group symmetry. Strain\nand charge-transfer effects were then considered for an ultra-thin film. It was\nfound that a Ta seed-layer suppresses the net spin moment on the Mn ions,\nleading to a reduction of the MAE.",
+        "url": "http://arxiv.org/abs/2503.21707v1",
+        "published": "2025-03-27T17:20:42Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [],
+    "error": "No results found"
+  },
+  {
+    "source": "OpenAlex",
+    "results": [
+      {
+        "title": "Neuroscience for Educators: What Are They Seeking, and What Are They Finding?",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/s12152-012-9159-3",
+        "published": "2012-04-10",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Contributions of Neuroscience to Educational Praxis: A Systematic Review",
+        "abstract": null,
+        "url": "https://doi.org/10.28991/esj-2023-sied2-012",
+        "published": "2023-07-27",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The Teaching Brain",
+        "abstract": null,
+        "url": "https://doi.org/10.1111/j.1751-228x.2009.01080.x",
+        "published": "2010-02-17",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Connecting Neuroscience and Education: Insight from Neuroscience Findings for Better Instructional Learning",
+        "abstract": null,
+        "url": "https://doi.org/10.17478/jegys.559933",
+        "published": "2019-06-27",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Informing Pedagogy Through the Brain-Targeted Teaching Model",
+        "abstract": null,
+        "url": "https://doi.org/10.1128/jmbe.v13i1.354",
+        "published": "2012-01-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Neuromyths and knowledge about intellectual giftedness in a highly educated multilingual country",
+        "abstract": null,
+        "url": "https://doi.org/10.3389/fpsyg.2023.1252239",
+        "published": "2023-10-20",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Implementing Neuropedagogical Innovation in Schools: From Theory to Practice",
+        "abstract": null,
+        "url": "https://doi.org/10.18662/brain/14.2/443",
+        "published": "2023-06-20",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Teaching English to the rythm of the brain",
+        "abstract": null,
+        "url": "https://doi.org/10.1344/joned.v3i1.39456",
+        "published": "2022-07-07",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Effective learning strategies and creative methods of teaching the croatian language in early primary school education",
+        "abstract": null,
+        "url": "https://doi.org/10.38003/sv.70.1.9",
+        "published": "2021-01-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Education, Parenting, and Mental Health Care in Europe",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781003377207",
+        "published": "2024-02-19",
+        "source": "OpenAlex"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [
+      {
+        "title": "Using Educational Neuroscience and Psychology to Teach Science. Part 1: A Case Study Review of Cognitive Load Theory (CLT) and Cognitive Acceleration through Science Education (CASE).",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Investigation of Decision-Making Computational cortex-like mechanism models in Neuroeducation",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Using educational neuroscience and psychology to teach science: Using educational neuroscience and pPart 2: A case study review of 'The Brain-Targeted Teaching Model' and 'Research-based Strategies to Ignite Student Learning'",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Neuroeducation: understanding neural dynamics in learning and teaching",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Educational neuroscience: bridging theory and practice",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Emergence of Confidence with Principles of Curiosity and Information Processing Philosophy of Mind and Cognitive Neuroeducation Approach",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Emergence of Confidence with Principles of Curiosity and Information Processing",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Transdisciplinary Learning: Investigating the Effects of an Adult Learning Class with a Neuroeducation Perspective on Adult Learners’ Identity, Perceptions of Learning, and Implementation Strategies",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Teaching Strategy of Programming Course Guided by Neuroeducation",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Defining the Boundaries for Neuroeducation as a Field of Study",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Exploring Educational Neuroscience as a Professional Practice",
+        "abstract": null,
+        "url": "https://doi.org/10.1344/joned.v5i1.46064",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Understanding Young Adolescents Through the Intersection of Cognitive Neuroscience, Psychology, and Educational Pedagogy",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781351122115-7",
+        "published": "2019",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Contribution of N170 Component in Subjective Time Distortions of Facial Emotions",
+        "abstract": null,
+        "url": "https://doi.org/10.52547/shefa.9.3.12",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Neuroeducation",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9781003195214-5",
+        "published": "2022",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Early childhood education and cognitive neuroscience",
+        "abstract": null,
+        "url": "https://doi.org/10.24046/neuroed.20200601.4",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Educational Leadership and Cognitive Change: A Transdisciplinary (Education, Cognitive Psychology, Neuroscience) Model",
+        "abstract": null,
+        "url": "https://doi.org/10.33423/jop.v21i1.4025",
+        "published": "2021",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Cognitive Neuroscience and Education",
+        "abstract": null,
+        "url": "https://doi.org/10.4324/9780429433726-20",
+        "published": "2023",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Assessing criteria for theories",
+        "abstract": null,
+        "url": "https://doi.org/10.1080/17588928.2020.1838471",
+        "published": "2021",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Theories and Methods in the Cognitive Neuroscience of Bilingualism",
+        "abstract": null,
+        "url": "https://doi.org/10.1017/9781108178501.001",
+        "published": "2023",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Perspectives: How Students Think—Neuroscience and Theories of Cognition",
+        "abstract": null,
+        "url": "https://doi.org/10.5040/9798400644078.ch-002",
+        "published": "2019",
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]

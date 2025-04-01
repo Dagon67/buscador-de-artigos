@@ -1,0 +1,382 @@
+[
+  {
+    "source": "arXiv",
+    "results": [
+      {
+        "title": "X$^{2}$-Gaussian: 4D Radiative Gaussian Splatting for Continuous-time\n  Tomographic Reconstruction",
+        "abstract": "Four-dimensional computed tomography (4D CT) reconstruction is crucial for\ncapturing dynamic anatomical changes but faces inherent limitations from\nconventional phase-binning workflows. Current methods discretize temporal\nresolution into fixed phases with respiratory gating devices, introducing\nmotion misalignment and restricting clinical practicality. In this paper, We\npropose X$^2$-Gaussian, a novel framework that enables continuous-time 4D-CT\nreconstruction by integrating dynamic radiative Gaussian splatting with\nself-supervised respiratory motion learning. Our approach models anatomical\ndynamics through a spatiotemporal encoder-decoder architecture that predicts\ntime-varying Gaussian deformations, eliminating phase discretization. To remove\ndependency on external gating devices, we introduce a physiology-driven\nperiodic consistency loss that learns patient-specific breathing cycles\ndirectly from projections via differentiable optimization. Extensive\nexperiments demonstrate state-of-the-art performance, achieving a 9.93 dB PSNR\ngain over traditional methods and 2.25 dB improvement against prior Gaussian\nsplatting techniques. By unifying continuous motion modeling with hardware-free\nperiod learning, X$^2$-Gaussian advances high-fidelity 4D CT reconstruction for\ndynamic clinical imaging. Project website at: https://x2-gaussian.github.io/.",
+        "url": "http://arxiv.org/abs/2503.21779v1",
+        "published": "2025-03-27T17:59:57Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Simulating quantum circuits with restricted quantum computers",
+        "abstract": "It is one of the most fundamental objectives in quantum information science\nto understand the boundary between the computational power of classical and\nquantum computers. One possible avenue to explore this boundary is to identify\nclasses of quantum circuits that can be efficiently simulated on a classical\ncomputer. Instead of simulating a general quantum circuit with a classical\ndevice, new schemes have recently emerged to simulate them on a quantum device\nthat is restricted in some manner. As such, these techniques allow us to study\nhow the restrictions impact the computational power of the device. One such\ntechnique is called quasiprobability simulation (QPS) and it estimates the\nresult of a quantum circuit with a Monte Carlo procedure that randomly replaces\ncircuit elements with ones that can be executed on the restricted quantum\ndevice.\n  The main focus of this thesis is dedicated to the QPS-based simulation of\nnonlocal quantum computation using local quantum operations. On the practical\nside, this enables the simulation of large quantum circuits using multiple\nsmaller quantum devices - a procedure that is sometimes called circuit\nknitting. We uncover a rich mathematical formalism with many connections to the\nresource theory of entanglement. We characterize the optimal simulation\noverhead for a broad range of practically relevant nonlocal states and channels\nand we explicitly provide achieving protocols. Moreover, we also investigate\nthe utility of classical communication between the local parties. Our results\naddress both the single-shot and asymptotic regime.\n  We frame QPS in a quantum resource theoretic framework, which highlights\nsimilarities that arise in the different instantiations of the technique.\nFurthermore, we study the importance of classical side information in the QPS\nprocedure and how it impacts the overhead and expressibility of QPS.",
+        "url": "http://arxiv.org/abs/2503.21773v1",
+        "published": "2025-03-27T17:59:45Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Results on branching random walks and rumor processes via germ order",
+        "abstract": "Germ order is a non-standard stochastic order defined through the comparison\nof the generating functions of the processes. This order was first introduced\nfor branching random walks with a constant breeding law and independent\ndispersal of offspring, which are characterized by a one-dimensional generating\nfunction. In this work, we investigate the properties of the extension of this\nconcept to processes characterized by a multidimensional generating function,\nsuch as general branching random walks and rumor processes. In particular, we\nuse germ ordering to characterize the behavior of certain branching random\nwalks and rumor processes with inhomogeneous breeding/transmitting laws.",
+        "url": "http://arxiv.org/abs/2503.21768v1",
+        "published": "2025-03-27T17:59:06Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Stable-SCore: A Stable Registration-based Framework for 3D Shape\n  Correspondence",
+        "abstract": "Establishing character shape correspondence is a critical and fundamental\ntask in computer vision and graphics, with diverse applications including\nre-topology, attribute transfer, and shape interpolation. Current dominant\nfunctional map methods, while effective in controlled scenarios, struggle in\nreal situations with more complex challenges such as non-isometric shape\ndiscrepancies. In response, we revisit registration-for-correspondence methods\nand tap their potential for more stable shape correspondence estimation. To\novercome their common issues including unstable deformations and the necessity\nfor careful pre-alignment or high-quality initial 3D correspondences, we\nintroduce Stable-SCore: A Stable Registration-based Framework for 3D Shape\nCorrespondence. We first re-purpose a foundation model for 2D character\ncorrespondence that ensures reliable and stable 2D mappings. Crucially, we\npropose a novel Semantic Flow Guided Registration approach that leverages 2D\ncorrespondence to guide mesh deformations. Our framework significantly\nsurpasses existing methods in challenging scenarios, and brings possibilities\nfor a wide array of real applications, as demonstrated in our results.",
+        "url": "http://arxiv.org/abs/2503.21766v1",
+        "published": "2025-03-27T17:59:02Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Exploring the Evolution of Physics Cognition in Video Generation: A\n  Survey",
+        "abstract": "Recent advancements in video generation have witnessed significant progress,\nespecially with the rapid advancement of diffusion models. Despite this, their\ndeficiencies in physical cognition have gradually received widespread attention\n- generated content often violates the fundamental laws of physics, falling\ninto the dilemma of ''visual realism but physical absurdity\". Researchers began\nto increasingly recognize the importance of physical fidelity in video\ngeneration and attempted to integrate heuristic physical cognition such as\nmotion representations and physical knowledge into generative systems to\nsimulate real-world dynamic scenarios. Considering the lack of a systematic\noverview in this field, this survey aims to provide a comprehensive summary of\narchitecture designs and their applications to fill this gap. Specifically, we\ndiscuss and organize the evolutionary process of physical cognition in video\ngeneration from a cognitive science perspective, while proposing a three-tier\ntaxonomy: 1) basic schema perception for generation, 2) passive cognition of\nphysical knowledge for generation, and 3) active cognition for world\nsimulation, encompassing state-of-the-art methods, classical paradigms, and\nbenchmarks. Subsequently, we emphasize the inherent key challenges in this\ndomain and delineate potential pathways for future research, contributing to\nadvancing the frontiers of discussion in both academia and industry. Through\nstructured review and interdisciplinary analysis, this survey aims to provide\ndirectional guidance for developing interpretable, controllable, and physically\nconsistent video generation paradigms, thereby propelling generative models\nfrom the stage of ''visual mimicry'' towards a new phase of ''human-like\nphysical comprehension''.",
+        "url": "http://arxiv.org/abs/2503.21765v1",
+        "published": "2025-03-27T17:58:33Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "On the open TS/ST correspondence",
+        "abstract": "The topological string/spectral theory correspondence establishes a precise,\nnon-perturbative duality between topological strings on local Calabi-Yau\nthreefolds and the spectral theory of quantized mirror curves. While this\nduality has been rigorously formulated for the closed topological string\nsector, the open string sector remains less understood. Building on the results\nof [1-3], we make further progress in this direction by constructing entire,\noff-shell eigenfunctions for the quantized mirror curve from open topological\nstring partition functions. We focus on local $\\mathbb{F}_0$, whose mirror\ncurve corresponds to the Baxter equation of the two-particle, relativistic Toda\nlattice. We then study the standard and dual four-dimensional limits, where the\nquantum mirror curve for local $\\mathbb{F}_0$ degenerates into the modified\nMathieu and McCoy-Tracy-Wu operators, respectively. In these limits, our\nframework provides a way to construct entire, off-shell eigenfunctions for the\ndifference equations associated with these operators. Furthermore, we find a\nsimple relation between the on-shell eigenfunctions of the modified Mathieu and\nMcCoy-Tracy-Wu operators, leading to a functional relation between the\noperators themselves.",
+        "url": "http://arxiv.org/abs/2503.21762v1",
+        "published": "2025-03-27T17:57:37Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "MemInsight: Autonomous Memory Augmentation for LLM Agents",
+        "abstract": "Large language model (LLM) agents have evolved to intelligently process\ninformation, make decisions, and interact with users or tools. A key capability\nis the integration of long-term memory capabilities, enabling these agents to\ndraw upon historical interactions and knowledge. However, the growing memory\nsize and need for semantic structuring pose significant challenges. In this\nwork, we propose an autonomous memory augmentation approach, MemInsight, to\nenhance semantic data representation and retrieval mechanisms. By leveraging\nautonomous augmentation to historical interactions, LLM agents are shown to\ndeliver more accurate and contextualized responses. We empirically validate the\nefficacy of our proposed approach in three task scenarios; conversational\nrecommendation, question answering and event summarization. On the LLM-REDIAL\ndataset, MemInsight boosts persuasiveness of recommendations by up to 14%.\nMoreover, it outperforms a RAG baseline by 34% in recall for LoCoMo retrieval.\nOur empirical results show the potential of MemInsight to enhance the\ncontextual performance of LLM agents across multiple tasks.",
+        "url": "http://arxiv.org/abs/2503.21760v1",
+        "published": "2025-03-27T17:57:28Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Large Scale Structure and the Cosmic Web",
+        "abstract": "The formation and evolution of galaxies cannot be separated from large scale\nstructure growth. Dark matter halos (and, therefore, galaxies) form and grow\nwithin the cosmic web - the classification of large-scale structure as distinct\nenvironments, namely voids, walls, filaments and nodes. Thanks to the rapid\ndevelopment of extragalactic spectroscopic redshift surveys and cosmological\nsimulations over the last two decades, we are now able to measure the impact of\nthe cosmic web on galaxies and halos in observations and in simulations. In\nthis chapter we summarise the state of play in our understanding of the link\nbetween dark matter halos, galaxies, and the cosmic web.",
+        "url": "http://arxiv.org/abs/2503.21759v1",
+        "published": "2025-03-27T17:57:19Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "VBench-2.0: Advancing Video Generation Benchmark Suite for Intrinsic\n  Faithfulness",
+        "abstract": "Video generation has advanced significantly, evolving from producing\nunrealistic outputs to generating videos that appear visually convincing and\ntemporally coherent. To evaluate these video generative models, benchmarks such\nas VBench have been developed to assess their faithfulness, measuring factors\nlike per-frame aesthetics, temporal consistency, and basic prompt adherence.\nHowever, these aspects mainly represent superficial faithfulness, which focus\non whether the video appears visually convincing rather than whether it adheres\nto real-world principles. While recent models perform increasingly well on\nthese metrics, they still struggle to generate videos that are not just\nvisually plausible but fundamentally realistic. To achieve real \"world models\"\nthrough video generation, the next frontier lies in intrinsic faithfulness to\nensure that generated videos adhere to physical laws, commonsense reasoning,\nanatomical correctness, and compositional integrity. Achieving this level of\nrealism is essential for applications such as AI-assisted filmmaking and\nsimulated world modeling. To bridge this gap, we introduce VBench-2.0, a\nnext-generation benchmark designed to automatically evaluate video generative\nmodels for their intrinsic faithfulness. VBench-2.0 assesses five key\ndimensions: Human Fidelity, Controllability, Creativity, Physics, and\nCommonsense, each further broken down into fine-grained capabilities. Tailored\nfor individual dimensions, our evaluation framework integrates generalists such\nas state-of-the-art VLMs and LLMs, and specialists, including anomaly detection\nmethods proposed for video generation. We conduct extensive annotations to\nensure alignment with human judgment. By pushing beyond superficial\nfaithfulness toward intrinsic faithfulness, VBench-2.0 aims to set a new\nstandard for the next generation of video generative models in pursuit of\nintrinsic faithfulness.",
+        "url": "http://arxiv.org/abs/2503.21755v1",
+        "published": "2025-03-27T17:57:01Z",
+        "source": "arXiv"
+      },
+      {
+        "title": "Extracting energy via bosonic Gaussian operations",
+        "abstract": "Quantum thermodynamics is often formulated as a theory with constrained\naccess to operations and resources. In this manuscript, we find a closed\nformula for the Gaussian ergotropy, i.e. the maximum energy that can be\nextracted from bosonic systems governed by quadratic Hamiltonians by means of\nGaussian unitaries only. This formula resembles the well-known eigenvalue-based\nexpression for the standard ergotropy, but is instead formulated using\nsymplectic eigenvalues. We further prove that the Gaussian ergotropy is\nadditive, indicating that the multiple-copy scenario does not benefit from\nGaussian entangling operations. Extending our analysis to the relationship\nbetween ergotropic and entropic functions, we establish bounds linking entropic\nmeasures of Gaussianity to extractable work. Finally, we generalise our\nframework to open systems by studying the optimal state preparation that\nminimises the energy output in a Gaussian channel.",
+        "url": "http://arxiv.org/abs/2503.21748v1",
+        "published": "2025-03-27T17:56:00Z",
+        "source": "arXiv"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "PubMed",
+    "results": [
+      {
+        "title": "Graph theoretical quantification of white matter reorganization after cortical stroke in mice.",
+        "abstract": "Stroke is a devastating disease leading to cell death and disconnection between neurons both locally and remote, often resulting in severe long-term disability. Spontaneous reorganization of areas and pathways not primarily affected by ischemia is, however, associated with albeit limited recovery of function. Quantitative mapping of whole-brain changes of structural connectivity concerning the ischemia-induced sensorimotor deficit and recovery thereof would help to target structural plasticity in order to improve rehabilitation. Currently, only in vivo diffusion MRI can extract the structural whole-brain connectome noninvasively. This approach is, however, used primarily in human studies. Here, we applied atlas-based MRI analysis and graph theory to DTI in wild-type mice with cortical stroke lesions. Using a DTI network approach and graph theory, we aimed at gaining insights into the dynamics of the spontaneous reorganization after stroke related to the recovery of function. We found evidence for altered structural integrity of connections of specific brain regions, including the breakdown of connections between brain regions directly affected by stroke as well as long-range rerouting of intra- and transhemispheric connections related to improved sensorimotor behavior.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32380139/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "The neural correlates of speech motor sequence learning.",
+        "abstract": "Speech is perhaps the most sophisticated example of a species-wide movement capability in the animal kingdom, requiring split-second sequencing of approximately 100 muscles in the respiratory, laryngeal, and oral movement systems. Despite the unique role speech plays in human interaction and the debilitating impact of its disruption, little is known about the neural mechanisms underlying speech motor learning. Here, we studied the behavioral and neural correlates of learning new speech motor sequences. Participants repeatedly produced novel, meaningless syllables comprising illegal consonant clusters (e.g., GVAZF) over 2 days of practice. Following practice, participants produced the sequences with fewer errors and shorter durations, indicative of motor learning. Using fMRI, we compared brain activity during production of the learned illegal sequences and novel illegal sequences. Greater activity was noted during production of novel sequences in brain regions linked to non-speech motor sequence learning, including the BG and pre-SMA. Activity during novel sequence production was also greater in brain regions associated with learning and maintaining speech motor programs, including lateral premotor cortex, frontal operculum, and posterior superior temporal cortex. Measures of learning success correlated positively with activity in left frontal operculum and white matter integrity under left posterior superior temporal sulcus. These findings indicate speech motor sequence learning relies not only on brain areas involved generally in motor sequencing learning but also those associated with feedback-based speech motor learning. Furthermore, learning success is modulated by the integrity of structural connectivity between these motor and sensory brain regions.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25313656/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Individual differences in crossmodal brain activity predict arcuate fasciculus connectivity in developing readers.",
+        "abstract": "Crossmodal integration of auditory and visual information, such as phonemes and graphemes, is a critical skill for fluent reading. Previous work has demonstrated that white matter connectivity along the arcuate fasciculus (AF) is predicted by reading skill and that crossmodal processing particularly activates the posterior STS (pSTS). However, the relationship between this crossmodal activation and white matter integrity has not been previously reported. We investigated the interrelationship of crossmodal integration, both in terms of behavioral performance and pSTS activity, with AF tract coherence using a rhyme judgment task in a group of 47 children with a range of reading abilities. We demonstrate that both response accuracy and pSTS activity for crossmodal (auditory-visual) rhyme judgments was predictive of fractional anisotropy along the left AF. Unimodal (auditory-only or visual-only) pSTS activity was not significantly related to AF connectivity. Furthermore, activity in other reading-related ROIs did not show the same AV-only AF coherence relationship, and AV pSTS activity was not related to connectivity along other language-related tracts. This study is the first to directly show that crossmodal brain activity is specifically related to connectivity in the AF, supporting its role in phoneme-grapheme integration ability. More generally, this study helps to define an interdependent neural network for reading-related integration.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24456399/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Altered resting-state functional and white matter tract connectivity in stroke patients with dysphagia.",
+        "abstract": "Swallowing dysfunction is intractable after acute stroke. Our understanding of the alterations in neural networks of patients with neurogenic dysphagia is still developing.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24297761/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Neuropsychological evidence for the functional role of the uncinate fasciculus in semantic control.",
+        "abstract": "Understanding a word requires mapping sounds to a word-form and then identifying its correct meaning, which in some cases necessitates the recruitment of cognitive control processes to direct the activation of semantic knowledge in a task appropriate manner (i.e., semantic control). Neuroimaging and neuropsychological studies identify a fronto-temporal network important for word comprehension. However, little is known about the connectional architecture subserving controlled retrieval and selection of semantic knowledge during word comprehension. We used diffusion tensor imaging (DTI) and resting-state functional magnetic resonance imaging (rs-fMRI) in aphasic individuals with varying degrees of word comprehension deficits to examine the role of three white matter pathways within this network: the uncinate fasciculus (UF), inferior longitudinal fasciculus (ILF), and inferior fronto-occipital fasciculus (IFOF). Neuroimaging data from a group of age-matched controls were also collected in order to establish that the patient group had decreased structural and functional connectivity profiles. We obtained behavioral data from aphasic participants on two measures of single word comprehension that involve semantic control, and assessed pathway functional significance by correlating patients' performance with indices of pathway structural integrity and the functional connectivity profiles of regions they connect. Both the structural integrity of the UF and the functional connectivity strength of regions it connects predicted patients' performance. This result suggests the semantic control impairment in word comprehension resulted from poor neural communication between regions the UF connects. Inspections of other subcortical and cortical structures revealed no relationship with patients' performance. We conclude that the UF mediates semantic control during word comprehension by connecting regions specialized for cognitive control with those storing word meanings. These findings also support a relationship between structural and functional connectivity measures, as the rs-fMRI results provide converging evidence with those obtained using DTI.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23395830/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Thalamic shape and connectivity abnormalities in children with attention-deficit/hyperactivity disorder.",
+        "abstract": "Attention-deficit/hyperactivity disorder (ADHD) is characterized by widespread structural and functional abnormalities in the cortico-striato-thalmo-cortical (CSTC) loops that subserve attention and executive functions. In this study, we analyzed thalamic shape and its white matter connections using structural magnetic resonance imaging and diffusion (DTI) data acquired from children with ADHD (n=19) and controls (n=19). Shape morphology of the thalamus was assessed using shape-based analysis, while connectivity between the thalamus and other brain regions was determined using probabilistic diffusion tractography. Shape-based analysis indicated significant regional atrophy in the left thalamus in children with ADHD compared to controls. Group analyses of white matter connectivity measures showed significantly decreased mean fractional anisotropy (FA) and volume of the tracts between thalamus and striatum, hippocampus, and prefrontal lobe in children with ADHD compared to controls. The structural abnormalities within the thalamus and the reduced integrity of the white matter tracks between the thalamus and other brain regions, as shown from the results of this study, may be the anatomical bases of the impaired cognitive performances in the attention and executive function domains in ADHD.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23149038/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "White matter integrity related to functional working memory networks in traumatic brain injury.",
+        "abstract": "This study explores the functional and structural patterns of connectivity underlying working memory impairment after severe traumatic axonal injury.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22345222/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Lifelong bilingualism maintains white matter integrity in older adults.",
+        "abstract": "Previous research has shown that bilingual speakers have higher levels of cognitive control than comparable monolinguals, especially at older ages. The present study investigates a possible neural correlate of this behavioral effect. Given that white matter (WM) integrity decreases with age in adulthood, we tested the hypothesis that bilingualism is associated with maintenance of WM in older people. Using diffusion tensor imaging, we found higher WM integrity in older people who were lifelong bilinguals than in monolinguals. This maintained integrity was measured by fractional anisotropy (FA) and was found in the corpus callosum extending to the superior and inferior longitudinal fasciculi. We also hypothesized that stronger WM connections would be associated with more widely distributed patterns of functional connectivity in bilinguals. We tested this by assessing the resting-state functional connectivity of frontal lobe regions adjacent to WM areas with group differences in FA. Bilinguals showed stronger anterior to posterior functional connectivity compared to monolinguals. These results are the first evidence that maintained WM integrity is related to lifelong naturally occurring experience; the resulting enhanced structural and functional connectivity may provide a neural basis for \"brain reserve.\"",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22090506/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "Tract-specific white matter structural disruption in patients with bipolar disorder.",
+        "abstract": "A growing body of evidence suggests that, independent of localized brain lesions, mood disorders can be associated with dysfunction of brain networks involved in the modulation of emotional and cognitive behavior. We used diffusion tensor (DT) tractography to quantify the presence and extent of structural injury to the connections between the amygdala and other brain regions, which included the subgenual, the supragenual and posterior cingulate, the parahippocampal, the orbitofrontal and dorsolateral prefrontal cortices, as well as the insula.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21843281/",
+        "published": null,
+        "source": "PubMed"
+      },
+      {
+        "title": "The architecture of cross-hemispheric communication in the aging brain: linking behavior to functional and structural connectivity.",
+        "abstract": "Contralateral recruitment remains a controversial phenomenon in both the clinical and normative populations. To investigate the neural correlates of this phenomenon, we explored the tendency for older adults to recruit prefrontal cortex (PFC) regions contralateral to those most active in younger adults. Participants were scanned with diffusion tensor imaging and functional magnetic rresonance imaging during a lateralized word matching task (unilateral vs. bilateral). Cross-hemispheric communication was measured behaviorally as greater accuracy for bilateral than unilateral trials (bilateral processing advantage [BPA]) and at the neural level by functional and structural connectivity between contralateral PFC. Compared with the young, older adults exhibited 1) greater BPAs in the behavioral task, 2) greater compensatory activity in contralateral PFC during the bilateral condition, 3) greater functional connectivity between contralateral PFC during bilateral trials, and 4) a positive correlation between fractional anisotropy in the corpus callosum and both the BPA and the functional connectivity between contralateral PFC, indicating that older adults' ability to distribute processing across hemispheres is constrained by white matter integrity. These results clarify how older adults' ability to recruit extra regions in response to the demands of aging is mediated by existing structural architecture, and how this architecture engenders corresponding functional changes that allow subjects to meet those task demands.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21653286/",
+        "published": null,
+        "source": "PubMed"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "OpenAlex",
+    "results": [
+      {
+        "title": "A Resource of Cre Driver Lines for Genetic Targeting of GABAergic Neurons in Cerebral Cortex",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.neuron.2011.07.026",
+        "published": "2011-09-01",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The structural basis of inter-individual differences in human behaviour and cognition",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/nrn3000",
+        "published": "2011-03-16",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The primate cortico-cerebellar system: anatomy and function",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/nrn1953",
+        "published": "2006-06-21",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Microglia and macrophages in brain homeostasis and disease",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/nri.2017.125",
+        "published": "2017-11-20",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "The neuroscience of human intelligence differences",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/nrn2793",
+        "published": "2010-02-10",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "What is normal in normal aging? Effects of aging, amyloid and Alzheimer's disease on the cerebral cortex and the hippocampus",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.pneurobio.2014.02.004",
+        "published": "2014-02-16",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Mapping anatomical correlations across cerebral cortex (MACACC) using cortical thickness from MRI",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.neuroimage.2006.01.042",
+        "published": "2006-04-20",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Cognitive processing speed and the structure of white matter pathways: Convergent evidence from normal variation and lesion studies",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.neuroimage.2008.03.057",
+        "published": "2008-04-12",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Materials and technologies for soft implantable neuroprostheses",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/natrevmats.2016.63",
+        "published": "2016-09-27",
+        "source": "OpenAlex"
+      },
+      {
+        "title": "Self-awareness, self-regulation, and self-transcendence (S-ART): a framework for understanding the neurobiological mechanisms of mindfulness",
+        "abstract": null,
+        "url": "https://doi.org/10.3389/fnhum.2012.00296",
+        "published": "2012-01-01",
+        "source": "OpenAlex"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "Semantic Scholar",
+    "results": [
+      {
+        "title": "Language deficits in primary lateral sclerosis: cortical atrophy, white matter degeneration and functional disconnection between cerebral regions",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "The Association of Aging with White Matter Integrity and Functional Connectivity Hubs",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Functional and Structural Brain Connectivity in Children With Bilateral Cerebral Palsy Compared to Age-Related Controls and in Response to Intensive Rapid-Reciprocal Leg Training",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Long-range connections damage in white matter hyperintensities affects information processing speed",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Genetic architecture of the white matter connectome of the human brain",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Nuancing the Limitations of Axonal Plasticity in World Health Organization Grade II Gliomas: White Matter Tracts Compensation Is Driven by Cortical Remodeling",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Lesion distribution and network mapping in dyskinetic cerebral palsy",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Mapping activity and functional organisation of the motor and visual pathways using ADC-fMRI in the human brain",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Additional resources and the default mode network: Evidence of increased connectivity and decreased white matter integrity in amyotrophic lateral sclerosis",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      },
+      {
+        "title": "Parcelation of the White Matter Using DTI: Insights into the Functional Connectivity of the Brain",
+        "abstract": null,
+        "url": null,
+        "published": "",
+        "source": "Semantic Scholar"
+      }
+    ],
+    "error": null
+  },
+  {
+    "source": "CrossRef",
+    "results": [
+      {
+        "title": "Assessing White Matter Engagement in Brain Networks through Functional and Structural Connectivity Mapping",
+        "abstract": null,
+        "url": "https://doi.org/10.1101/2024.01.04.574259",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Meta-analysis of structural integrity of white matter and functional connectivity in developmental stuttering",
+        "abstract": null,
+        "url": "https://doi.org/10.1016/j.brainresbull.2023.110827",
+        "published": "2023",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Stimulation mapping of white matter tracts to study brain functional connectivity",
+        "abstract": null,
+        "url": "https://doi.org/10.1038/nrneurol.2015.51",
+        "published": "2015",
+        "source": "CrossRef"
+      },
+      {
+        "title": "White Matter Pathway Asymmetry Underlies Functional Lateralization",
+        "abstract": null,
+        "url": "https://doi.org/10.1093/cercor/bhk004",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "Brain Injury and Cerebral Lateralization",
+        "abstract": null,
+        "url": "https://doi.org/10.5772/30115",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "White Matter Tracts",
+        "abstract": null,
+        "url": "https://doi.org/10.1007/978-3-319-23383-3_12",
+        "published": "2016",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Nontask-Related Brain Lateralization Biomarkers in Children: The Asymmetry of Language Areas on Functional Connectivity Functional Magnetic Resonance Imaging",
+        "abstract": null,
+        "url": "https://doi.org/10.1089/brain.2017.0553",
+        "published": "2018",
+        "source": "CrossRef"
+      },
+      {
+        "title": "A multimodal analysis of Magnetic Resonance Imaging for the study of brain abnormalities in migraine: gray matter morphometry, white matter integrity and structural connectivity",
+        "abstract": null,
+        "url": "https://doi.org/10.35376/10324/48502",
+        "published": null,
+        "source": "CrossRef"
+      },
+      {
+        "title": "The Network Modification (NeMo) Tool: Elucidating the Effect of White Matter Integrity Changes on Cortical and Subcortical Structural Connectivity",
+        "abstract": null,
+        "url": "https://doi.org/10.1089/brain.2013.0147",
+        "published": "2013",
+        "source": "CrossRef"
+      },
+      {
+        "title": "Functional connectivity predicts gender: Evidence for gender differences in resting brain connectivity",
+        "abstract": null,
+        "url": "https://doi.org/10.1002/hbm.23950",
+        "published": "2018",
+        "source": "CrossRef"
+      }
+    ],
+    "error": null
+  }
+]
