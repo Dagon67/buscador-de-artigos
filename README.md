@@ -32,8 +32,8 @@ pip install -r requirements.txt
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/phsgusmao/buscador-artigos.git
-cd buscador-artigos
+git clone https://github.com/Dagon67/buscador-de-artigos.git
+cd buscador-de-artigos
 ```
 
 2. Instale as dependências:
@@ -72,4 +72,4 @@ Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
 ## Licença
 
-MIT License 
+MIT License
