@@ -1,30 +1,72 @@
 # Página Bento
 
-Landing page moderna e responsiva usando SCSS para estilização avançada. Design limpo e otimizado para conversão.
+Uma landing page moderna e responsiva construída com HTML5, SCSS e JavaScript puro. O projeto utiliza as melhores práticas de desenvolvimento web e oferece uma experiência de usuário fluida e agradável.
+
+## Características
+
+- Design moderno e minimalista
+- Totalmente responsivo
+- Animações suaves
+- Otimizado para performance
+- Código limpo e bem organizado
+- Sem dependências de frameworks
+
+## Tecnologias Utilizadas
+
+- HTML5
+- SCSS (com variáveis, mixins e funções)
+- JavaScript ES6+
+- Font Awesome para ícones
+- Google Fonts
+
+## Estrutura do Projeto
+
+```
+pagina-bento/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── animations.css
+├── scss/
+│   ├── style.scss
+│   └── animations.scss
+├── js/
+│   ├── main.js
+│   └── animations.js
+├── img/
+│   ├── logo.svg
+│   ├── hero.svg
+│   └── about.svg
+└── README.md
+```
 
 ## Recursos
 
-- Layout totalmente responsivo
-- Animações suaves e otimizadas
-- SEO-friendly
-- Compatível com múltiplos navegadores
-- Performance otimizada
-- Componentes reutilizáveis
-- Dark mode integrado
+1. **Design Responsivo**
+   - Layout adaptativo para todos os dispositivos
+   - Mobile-first approach
+   - Breakpoints otimizados
 
-## Tecnologias
+2. **Animações**
+   - Efeitos de scroll
+   - Transições suaves
+   - Animações de hover
+   - Parallax
+   - Contador animado
+   - Efeito de digitação
 
-- HTML5
-- SCSS/CSS3
-- JavaScript ES6+
-- Webpack
-- PostCSS
-- Autoprefixer
+3. **Performance**
+   - Carregamento lazy de imagens
+   - CSS minificado
+   - JavaScript otimizado
+   - Imagens otimizadas
 
-## Pré-requisitos
-
-- Node.js 14+
-- NPM ou Yarn
+4. **Usabilidade**
+   - Navegação intuitiva
+   - Menu responsivo
+   - Scroll suave
+   - Formulário de contato funcional
+   - Indicador de progresso de scroll
 
 ## Instalação
 
@@ -34,59 +76,56 @@ git clone https://github.com/Dagon67/pagina-bento.git
 cd pagina-bento
 ```
 
-2. Instale as dependências:
-```bash
-npm install
-# ou
-yarn install
-```
+2. Para desenvolvimento com SCSS:
+   - Instale o Sass globalmente:
+   ```bash
+   npm install -g sass
+   ```
+   - Compile o SCSS:
+   ```bash
+   sass scss/style.scss css/style.css --watch
+   sass scss/animations.scss css/animations.css --watch
+   ```
 
-## Scripts Disponíveis
-
-```bash
-# Desenvolvimento
-npm run dev
-# ou
-yarn dev
-
-# Build para produção
-npm run build
-# ou
-yarn build
-
-# Preview da build
-npm run preview
-# ou
-yarn preview
-```
-
-## Estrutura do Projeto
-
-```
-pagina-bento/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── styles/
-│   └── js/
-├── public/
-├── package.json
-└── README.md
-```
+3. Abra o arquivo `index.html` em seu navegador ou use um servidor local.
 
 ## Personalização
 
-1. Modifique as cores e variáveis em `src/styles/variables.scss`
-2. Ajuste os componentes em `src/components/`
-3. Atualize o conteúdo em `src/index.html`
+### Cores
+Edite as variáveis no arquivo `scss/style.scss`:
+```scss
+$primary-color: #4A90E2;
+$secondary-color: #2C3E50;
+$accent-color: #E74C3C;
+```
 
-## Otimização
+### Fontes
+Altere as fontes no arquivo `scss/style.scss`:
+```scss
+body {
+    font-family: 'Inter', sans-serif;
+}
+```
 
-- Imagens otimizadas
-- CSS minificado
-- JavaScript minificado
-- Lazy loading de imagens
-- Prefetch de recursos críticos
+### Animações
+Personalize as animações em `scss/animations.scss` e `js/animations.js`.
+
+## Desenvolvimento
+
+1. **Estrutura HTML**
+   - Semântica
+   - Acessibilidade
+   - SEO-friendly
+
+2. **Estilos SCSS**
+   - Arquitetura modular
+   - Reutilização de código
+   - Manutenibilidade
+
+3. **JavaScript**
+   - Código modular
+   - Event handling
+   - Animações performáticas
 
 ## Contribuindo
 
